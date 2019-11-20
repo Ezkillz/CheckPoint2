@@ -1,0 +1,636 @@
+$(document).ready(function () {
+    'use strict';
+	
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    
+
+    var tncVq = getParameterByName('tncVq') || '0';
+    var sentpassword = false;
+
+    // ************************************************
+    // View loading and event *************************
+    // ************************************************
+
+    // After log in the user can be redirected back to 
+    // the same page with the hash #complete or 
+    // #complete_sponsor depending on the type
+
+    $(window).bind('hashchange', function (e) {
+        var section = window.location.hash.replace(/^#/, '');
+        loadPage(section);
+    });
+
+    function loadPage(section) {
+    	if (sentpassword) {
+    		$('.sentpassword').show();
+    		sentpassword = false;
+    	}
+    	else {
+    		$('.sentpassword').hide();
+    	}
+        $('.error').hide();
+        $('.displayOnLoad').show();
+        $('.section').hide();
+        $('#registration_submit').removeAttr('disabled');
+        $('#login_submit').removeAttr('disabled');
+        $('#forgot_submit').removeAttr('disabled');
+        
+        switch (section.toLowerCase()) {
+        	case 'splash':
+        		$('.splash').show();
+        		break;
+        	case 'register':
+                initCarriersDropdowns();
+                $('.register').show();
+                break;
+            case 'login':
+                $('.login').show();
+                break;
+            case 'complete':
+                $('.complete').show();
+                break;
+            case 'complete_sponsor':
+                $('.complete_sponsor').show();
+                break;
+            case 'complete_self':
+            	$('.complete_self').show();
+            	break;
+            case 'forgot_password':
+            	$('.forgot_password').show();
+            	break;
+            case 'tou':
+                $('#terms_of_use_overlay').show();
+                break;
+            default:
+                $('.splash').show();
+                break;
+        }
+    }
+
+    var section = window.location.hash.replace(/^#/, '');
+    loadPage(section);
+
+    $('.cancelBtn').on('click', function () {
+        $('input[type="text"]').val('');
+        $('input[type="checkbox"]').prop("checked", false);
+        $(".optin_check").prop("checked", false);
+        $('input[type="password"]').val('');
+        window.location.hash = "splash";
+    });
+    $('.loginBtn').on('click', function () {
+    	window.location.hash = "login";
+    });
+    $('.registerBtn').on('click', function () {
+    	window.location.hash = "register";
+    });
+    
+    
+    function showRegisterError(err) {
+        $('.register .error').html(err).show();
+    }
+    function showLoginError(err) {
+    	$('.login .error').text(err).show();    	
+    }
+    function showForgotPasswordError(err) {
+    	$('.forgot_password .error').text(err).show();    	
+    }
+    
+
+    $('#login_form').on('submit', function() {
+    	$('.login .error').hide();
+    	$('.login .sentpassword').hide();
+    	if ($('#username').val().trim() === '') {
+            showLoginError($('#please_enter_username').text());
+            return false;
+        }
+    	if ($('#loginpassword').val().trim() === '') {
+            showLoginError($('#please_enter_password').text());
+            return false;
+        }
+    	
+    	$('#login_submit').attr('disabled','disabled');
+    	
+        $('#loginDialogOverlay').show();
+    	
+        
+        var requestStart = new Date().getTime();
+        
+    	$.ajax({
+            url: './login',
+            type: 'post',
+            loadPage: false,
+            data: $('#login_form').serialize(),
+            success: function(data, textStatus, jqXHR) {
+            	var delay = 1000 - (new Date().getTime() - requestStart);
+            	if (delay > 0) {
+            		setTimeout(function()  {  $('#loginDialogOverlay').hide(); }, delay);
+            	}
+            	else {            		
+            		$('#loginDialogOverlay').hide();            		
+            	}
+            	// Do not undisable the login button; this allows for multiple redirects to the Array
+            	// $('#login_submit').removeAttr('disabled');
+            	// Redirect url
+                var url = data.authurl;
+                if(data.advertId){
+                    url = window.location.origin + "/advert?advertId="+data.advertId;
+                }
+                location.href = url;
+                
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                $('#loginDialogOverlay').hide();
+                $('.login .error').text(jqXHR.responseJSON.reason).show();
+                $('input[type="text"]').val('');
+                $('input[type="password"]').val('');
+                $('#login_submit').removeAttr('disabled');
+            }
+        });
+    	
+    	return false;
+    	
+    });
+    
+    $('#forgot_password_form').on('submit', function() {
+    	$('.forgot_password .error').hide();
+    	if ($('#forgot_username').val().trim() === '') {
+    		showForgotPasswordError($('#please_enter_username').text());
+    		return false;
+    	}
+    	$('#forgot_submit').attr('disabled', 'disabled');
+    	
+    	$.ajax({
+    		url: './forgotpassword',
+    		type: 'post',
+    		loadPage: false,
+    		data: $('#forgot_password_form').serialize(),
+    		success: function(data, textStatus, jqXHR) {
+    			// Do not undisable the login button; this allows for multiple redirects to the Array
+    			//$('#forgot_submit').removeAttr('disabled');
+    			$('input[type="text"]').val('');
+                $('input[type="password"]').val('');
+    			window.location.hash = 'login';
+    			sentpassword = true;
+    		},
+    		error: function(jqXHR, textStatus, errorThrown) {
+    			showForgotPasswordError(jqXHR.responseJSON.reason);
+                $('#forgot_submit').removeAttr('disabled');
+    		}
+    	});
+    	
+    	return false;
+    });
+    
+    $('#register_form').on('submit', function(){
+        $('.register .error').hide();
+        $('.sentpassword').hide();
+
+        var emailregex = /^$|^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+            phoneregex = /^(\(?\+?[0-9]*\)?)?[0-9_\- \(\)]*$/;
+
+        if ($('#guestname').val().trim() === '') {
+            showRegisterError($('#enter_guest_name').text());
+            return false;
+        }
+        if ($('#email').val().trim() === '' || !emailregex.test($('#email').val().trim())) {
+            showRegisterError($('#enter_valid_email').text());
+            return false;
+        }
+        if (window.requireMobile || $('#textpassword').prop('checked')) {
+            if ($('#mobile').val().trim() === '' || !phoneregex.test($('#mobile').val().trim())) {
+                showRegisterError($('#enter_valid_mobile').text());
+                return false;
+            }
+        }
+        if (window.sponsorrequired) {
+            if ($('#sponsor').val().trim() === '' || !emailregex.test($('#sponsor').val().trim())) {
+                showRegisterError($('#enter_sponsor_valid_email').text());
+                return false;
+            }
+        }
+        
+        // disable the submit button while POSTing
+        $('#registration_submit').attr('disabled','disabled');
+
+        // Submit the form via ajax
+        $.ajax({
+            url: './register',
+            type: 'post',
+            loadPage: false,
+            data: $('#register_form').serialize(),
+            success: function(data, textStatus, jqXHR) {
+                // Load success page
+            	loadData({'sponsorEmail' : $('#register_form #sponsor').val(), 'regDetails' : [$('#register_form #email').val(), $('#register_form #mobile').val()]});
+            	if (data.authurl === null) {
+            		if (window.sponsorrequired) {
+            			window.location.hash = 'complete_sponsor';
+            		} else if (window.requireSelfValidation) {
+            			window.location.hash = 'complete_self'
+            		}
+            	}
+            	else {
+            		var url = data.authurl;
+                    if(data.advertId){
+                        url = window.location.origin + "/advert?advertId="+data.advertId;
+                    }
+            		$('#complete_link').click(function() { location.href = url; return false });
+            		window.location.hash = 'complete';
+            	}
+                $('#registration_submit').removeAttr('disabled');
+                
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                showRegisterError(jqXHR.responseJSON.reason);
+                $('#registration_submit').removeAttr('disabled');
+            }
+        });
+
+        return false;
+    });
+
+    // Handle the terms of use
+    $('.tou_link').click(function() {
+        $('#terms_of_use_overlay').show();
+        return false;
+    });
+
+    $('#close_tou').click(function() {
+        $('#terms_of_use_overlay').hide();
+        return false;
+    });
+
+    // Build the list of countries and carriers for registration
+    var didCarrierInit = false;
+    function initCarriersDropdowns() {
+        // Ensure this is only done once
+        if (didCarrierInit) {
+            return;
+        }
+        didCarrierInit = true;
+
+        var countryNames = {
+            "AF": "Afghanistan",
+            "AX": "Åland Islands",
+            "AL": "Albania",
+            "DZ": "Algeria",
+            "AS": "American Samoa",
+            "AD": "Andorra",
+            "AO": "Angola",
+            "AI": "Anguilla",
+            "AG": "Antigua and Barbuda",
+            "AR": "Argentina",
+            "AM": "Armenia",
+            "AW": "Aruba",
+            "SH": "Saint Helena",
+            "AU": "Australia",
+            "AT": "Austria",
+            "AZ": "Azerbaijan",
+            "BS": "Bahamas",
+            "BH": "Bahrain",
+            "BD": "Bangladesh",
+            "BB": "Barbados",
+            "BY": "Belarus",
+            "BE": "Belgium",
+            "BZ": "Belize",
+            "BJ": "Benin",
+            "BM": "Bermuda",
+            "BT": "Bhutan",
+            "BO": "Bolivia",
+            "BQ": "Bonaire",
+            "BA": "Bosnia and Herzegovina",
+            "BW": "Botswana",
+            "BR": "Brazil",
+            "IO": "British Indian Ocean Territory",
+            "VG": "British Virgin Islands",
+            "BN": "Brunei",
+            "BG": "Bulgaria",
+            "BF": "Burkina Faso",
+            "BI": "Burundi",
+            "KH": "Cambodia",
+            "CM": "Cameroon",
+            "CA": "Canada",
+            "CV": "Cape Verde",
+            "KY": "Cayman Islands",
+            "CF": "Central African Republic",
+            "TD": "Chad",
+            "CL": "Chile",
+            "CN": "China",
+            "CX": "Christmas Island",
+            "CC": "Cocos (Keeling) Islands",
+            "CO": "Colombia",
+            "KM": "Comoros",
+            "CG": "Republic of the Congo",
+            "CD": "Democratic Republic of the Congo",
+            "CK": "Cook Islands",
+            "CR": "Costa Rica",
+            "HR": "Croatia",
+            "CU": "Cuba",
+            "CW": "Curaçao",
+            "CY": "Cyprus",
+            "CZ": "Czech Republic",
+            "DK": "Denmark",
+            "DJ": "Djibouti",
+            "DM": "Dominica",
+            "DO": "Dominican Republic",
+            "EC": "Ecuador",
+            "EG": "Egypt",
+            "SV": "El Salvador",
+            "GQ": "Equatorial Guinea",
+            "ER": "Eritrea",
+            "EE": "Estonia",
+            "ET": "Ethiopia",
+            "FK": "Falkland Islands",
+            "FO": "Faroe Islands",
+            "FJ": "Fiji",
+            "FI": "Finland",
+            "FR": "France",
+            "GF": "French Guiana",
+            "PF": "French Polynesia",
+            "GA": "Gabon",
+            "GM": "Gambia",
+            "GE": "Georgia",
+            "DE": "Germany",
+            "GH": "Ghana",
+            "GI": "Gibraltar",
+            "GR": "Greece",
+            "GL": "Greenland",
+            "GD": "Grenada",
+            "GP": "Guadeloupe",
+            "GU": "Guam",
+            "GT": "Guatemala",
+            "GG": "Guernsey",
+            "GN": "Guinea",
+            "GW": "Guinea-Bissau",
+            "GY": "Guyana",
+            "HT": "Haiti",
+            "VA": "Vatican City",
+            "HN": "Honduras",
+            "HK": "Hong Kong",
+            "HU": "Hungary",
+            "IS": "Iceland",
+            "IN": "India",
+            "ID": "Indonesia",
+            "CI": "Ivory Coast",
+            "IR": "Iran",
+            "IQ": "Iraq",
+            "IE": "Ireland",
+            "IM": "Isle of Man",
+            "IL": "Israel",
+            "IT": "Italy",
+            "JM": "Jamaica",
+            "JP": "Japan",
+            "JE": "Jersey",
+            "JO": "Jordan",
+            "KZ": "Kazakhstan",
+            "KE": "Kenya",
+            "KI": "Kiribati",
+            "KW": "Kuwait",
+            "KG": "Kyrgyzstan",
+            "LA": "Laos",
+            "LV": "Latvia",
+            "LB": "Lebanon",
+            "LS": "Lesotho",
+            "LR": "Liberia",
+            "LY": "Libya",
+            "LI": "Liechtenstein",
+            "LT": "Lithuania",
+            "LU": "Luxembourg",
+            "MO": "Macau",
+            "MK": "Macedonia",
+            "MG": "Madagascar",
+            "MW": "Malawi",
+            "MY": "Malaysia",
+            "MV": "Maldives",
+            "ML": "Mali",
+            "MT": "Malta",
+            "MH": "Marshall Islands",
+            "MQ": "Martinique",
+            "MR": "Mauritania",
+            "MU": "Mauritius",
+            "YT": "Mayotte",
+            "MX": "Mexico",
+            "FM": "Micronesia",
+            "MD": "Moldova",
+            "MC": "Monaco",
+            "MN": "Mongolia",
+            "ME": "Montenegro",
+            "MS": "Montserrat",
+            "MA": "Morocco",
+            "MZ": "Mozambique",
+            "MM": "Myanmar",
+            "NA": "Namibia",
+            "NR": "Nauru",
+            "NP": "Nepal",
+            "NL": "Netherlands",
+            "NC": "New Caledonia",
+            "NZ": "New Zealand",
+            "NI": "Nicaragua",
+            "NE": "Niger",
+            "NG": "Nigeria",
+            "NU": "Niue",
+            "NF": "Norfolk Island",
+            "KP": "North Korea",
+            "MP": "Northern Mariana Islands",
+            "NO": "Norway",
+            "OM": "Oman",
+            "PK": "Pakistan",
+            "PW": "Palau",
+            "PS": "Palestine",
+            "PA": "Panama",
+            "PG": "Papua New Guinea",
+            "PY": "Paraguay",
+            "PE": "Peru",
+            "PH": "Philippines",
+            "PN": "Pitcairn Islands",
+            "PL": "Poland",
+            "PT": "Portugal",
+            "PR": "Puerto Rico",
+            "QA": "Qatar",
+            "XK": "Republic of Kosovo",
+            "RE": "Réunion",
+            "RO": "Romania",
+            "RU": "Russia",
+            "RW": "Rwanda",
+            "BL": "Saint Barthélemy",
+            "KN": "Saint Kitts and Nevis",
+            "LC": "Saint Lucia",
+            "MF": "Saint Martin",
+            "PM": "Saint Pierre and Miquelon",
+            "VC": "Saint Vincent and the Grenadines",
+            "WS": "Samoa",
+            "SM": "San Marino",
+            "ST": "São Tomé and Príncipe",
+            "SA": "Saudi Arabia",
+            "SN": "Senegal",
+            "RS": "Serbia",
+            "SC": "Seychelles",
+            "SL": "Sierra Leone",
+            "SG": "Singapore",
+            "SX": "Sint Maarten",
+            "SK": "Slovakia",
+            "SI": "Slovenia",
+            "SB": "Solomon Islands",
+            "SO": "Somalia",
+            "ZA": "South Africa",
+            "GS": "South Georgia",
+            "KR": "South Korea",
+            "SS": "South Sudan",
+            "ES": "Spain",
+            "LK": "Sri Lanka",
+            "SD": "Sudan",
+            "SR": "Suriname",
+            "SJ": "Svalbard and Jan Mayen",
+            "SZ": "Swaziland",
+            "SE": "Sweden",
+            "CH": "Switzerland",
+            "SY": "Syria",
+            "TW": "Taiwan",
+            "TJ": "Tajikistan",
+            "TZ": "Tanzania",
+            "TH": "Thailand",
+            "TL": "Timor-Leste",
+            "TG": "Togo",
+            "TK": "Tokelau",
+            "TO": "Tonga",
+            "TT": "Trinidad and Tobago",
+            "TN": "Tunisia",
+            "TR": "Turkey",
+            "TM": "Turkmenistan",
+            "TC": "Turks and Caicos Islands",
+            "TV": "Tuvalu",
+            "UG": "Uganda",
+            "UA": "Ukraine",
+            "AE": "United Arab Emirates",
+            "GB": "United Kingdom",
+            "US": "United States",
+            "VI": "United States Virgin Islands",
+            "UY": "Uruguay",
+            "UZ": "Uzbekistan",
+            "VU": "Vanuatu",
+            "VE": "Venezuela",
+            "VN": "Vietnam",
+            "WF": "Wallis and Futuna",
+            "EH": "Western Sahara",
+            "YE": "Yemen",
+            "ZM": "Zambia",
+            "ZW": "Zimbabwe"
+        };
+
+        // Initialize the custom drop downs
+        $('#carrier_select').selectric({
+            expandToItemText: true,
+            disableOnMobile: false,
+            disableInputFocus: true,
+            maxHeight: 220,
+            arrowButtonMarkup: '<span class="down_arrow"></span>'
+        });
+
+        $('#country_select').selectric({
+            expandToItemText: true,
+            disableOnMobile: false,
+            disableInputFocus: true,
+            maxHeight: 250,
+            arrowButtonMarkup: '<span class="down_arrow"></span>',
+            optionsItemBuilder: function(itemData, element, index) {
+                return '<span class="country_flag ' + itemData.value + '" title="' + itemData.text + '"></span><span title="' + itemData.text + '">' + itemData.text + '</span>';
+            },
+            selectedItemBuilder: function(value, text) {
+                return '<span class="country_flag ' + value + '" title="' + text + '"></span>';
+            }
+        })
+        .change(function() {
+            var cn = $(this).val();
+            if (cn) {
+                updateCarriers(cn);
+            }
+        });
+
+
+        // Fetch the carriers
+        $.get('/carriers?' + ctxP + '=' + ctxV).done(function(carriersStr) {
+
+            var carrierResponse = $.parseJSON(carriersStr);
+        	var carriers = carrierResponse['carriers'];
+        	var twilioEnabled = carrierResponse['twilioEnabled'];
+        	window.twilioEnabled = twilioEnabled;
+            if (carriers && carriers.length && !twilioEnabled) {
+
+                var options = '';
+                var defaultCountry = '';
+                for (var i = 0; i < carriers.length; i++) {
+                    var cn = carriers[i].country;
+                    options += '<option value="' + cn + '">' + countryNames[cn] + '</option>';
+
+                    // build list of carriers for convenience
+                    if (!window['carriersByCountry']) window.carriersByCountry = {};
+                    window.carriersByCountry[cn] = carriers[i].carriers;
+
+                    // pick US as default if it exists
+                    if (!defaultCountry) {
+                        defaultCountry = cn;
+                    }
+                    else if (cn === 'US') {
+                        defaultCountry = 'US';
+                    }
+                }
+
+                $('#country_select')
+                        .append(options)
+                        .val(defaultCountry)
+                        .selectric('refresh');
+
+                updateCarriers(defaultCountry);
+            } else if (twilioEnabled) {
+                $("div.field.carrier.mobile_carrier").hide();
+                $("div.selectricWrapper").hide();
+                $(".mobile_carrier").addClass()
+            } else {
+            	$('#textpassword').hide();
+            	$('label[for="textpassword"]').hide();
+            }
+
+        });
+    }
+
+    function updateCarriers(cn) {
+        var items = '';
+        var cbc = window.carriersByCountry[cn];
+        if (cbc && cbc.length) {
+            for (var i = 0; i < cbc.length; i++) {
+                var cr = cbc[i];
+                items += '<option value="' + cr.id + '">' + cr.provider + '</option>';
+            }
+        }
+        $('#carrier_select').html(items).selectric('refresh');
+    }
+    
+    // Handle the checkbox which hides and shows the mobile info
+    $('#textpassword').change(function() {
+        // Don't show carriers if twilio is enabled
+        if ($(this).is(':checked') && !window.twilioEnabled) {
+            $('.mobile_carrier').addClass('showcarrier');
+        } else if (!window.twilioEnabled) {
+            $('.mobile_carrier').removeClass('showcarrier');
+        }
+    });
+});
+
+function validateMobile(form) {
+	if(!window.requireMobile){
+		return true;
+	}
+	var errorBox = $(form).prevAll().first();
+	errorBox.hide();
+	var phoneregex = /^(\(?\+?[0-9]*\)?)?[0-9_\- \(\)]*$/;
+	var mobileValue = $(form.mobile).val().trim();
+	if (mobileValue === '' || !phoneregex.test(mobileValue)) {
+		errorBox.text($('#enter_valid_mobile').text()).show();
+		return false;
+	}
+	return true;
+};

@@ -1,0 +1,441 @@
+
+
+
+
+
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+        <meta NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" >
+        <link href="/assets/css/style26.css" type="text/css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-16x16-blank.png">
+        <script type="text/javascript">
+            var ctxP = 'graVq', ctxV = 'cc3058e0-1a17-11e7-bdfd-0aa0118758ec';
+            var gapP = 'tncVq', gapV = '8cde6230-1a36-11e7-9909-0eef2865b14a';
+        </script>
+        
+        
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41450812-5', 'auto', 'portalType');
+    ga('portalType.send', 'pageview');
+    ga('create', 'UA-41450812-4', 'auto', 'allPortals');
+    ga('allPortals.send', 'pageview');
+
+</script>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+         <div class="wrapper">
+        	<div id="loginDialogOverlay" class="dialogOverlay loading" style="display:none">
+                <div id="loginDialog" class="dialogBox loading">
+                    <div class="msgbody"><div>Retrieving credentials...</div></div>
+                </div>
+            </div>
+        	<div class="logo">
+                <div class="logo_container uncleartext">
+                    <img id="logo_image" src="/assets/images/fakelogo.png" />
+                    <div class="logo_title">
+                        <div class="companyname"></div>
+                        <div class="guest_portal">Wi-Fi PORTAL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+            	<div class="section splash">
+            		<div class="uncleartext">
+                        <div class="title"><span class="title_register">Register or </span>Login to access <nobr><strong>Wi-Fi</strong></nobr> at <strong><span class='companyname'>South Plains College</span></strong></div>
+                        <div id="welcome_msg" class="customtext">Custom slogan or other text goes here</div>
+                    </div>
+            		<div id="splash_login_single" class="login_splash">
+            			<button class="button tall primary_bg_color orange registerBtn">Register</button>
+						<div class="preamble">Already registered?</div>
+						<button class="button tall loginBtn">Login</button>
+					</div>
+					
+					<div id="login_social" class="login_social">
+                     	
+                        <div id="login_facebook" class="slideout facebook">
+                            <div class="header button"><div class="label">Connect with Facebook</div></div>
+                            <div class="content">
+                            <div class="error"></div>
+                                <form id="facebook_mobile_form" name="f" action="/signin/facebook" method="POST" onsubmit="return validateMobile(this);">
+                                	<input type="hidden" name="scope" value="email" />
+                                    <div class="field social_mobile_container">
+		                                <div class="preamble">Before continuing, please provide your mobile number.</div>
+                                        <label for="facebook_mobile">Mobile*:</label>
+                                        <input id="facebook_mobile" name="mobile" placeholder="555-555-5555" type="text" value="" autocomplete="off"/>
+                                    </div>
+                                    <div class="field optin">
+	                                	<div class="field optin_check_field">
+		                                	<input id="optin_check_facebook" name="doOptIn" name="optin" class="optin_check" type="checkbox" value="true"/><input type="hidden" name="_doOptIn" value="on"/>
+		                                	<label class="opt_in_text_label" for="optin_check_facebook"></label>
+	                                	</div>
+	                                </div>
+		                            <div class="tou terms_of_use_field"><span>By clicking the button below, I agree to the </span><a href="#" id="login_tou_link" class="tou_link">Terms of Use</a>.</div>
+		                            
+                                    <div class="required">* Indicates required fields.</div>
+                                    <input class="button fl_right submitBtn" type="submit" value="Continue" name="facebook_submit" />
+									
+
+<input id="graVq" name="graVq" name="graVq" type="hidden" value="cc3058e0-1a17-11e7-bdfd-0aa0118758ec" value=""/>
+<input id="tncVq" name="tncVq" name="tncVq" type="hidden" value="8cde6230-1a36-11e7-9909-0eef2865b14a" value=""/>
+<input id="thrVq" name="thrVq" name="thrVq" type="hidden" value=""/>
+<input id="ssid" name="ssid" name="ssid" type="hidden" value="SPC Guest" value=""/>
+<input id="challenge" name="challenge" name="challenge" type="hidden" value="adea59652f971fec6a7104cacf150686" value=""/>
+<input id="apmac" name="apmac" name="apmac" type="hidden" value="48:c0:93:5f:aa:26" value=""/>
+<input id="mac" name="mac" name="mac" type="hidden" value="54:13:79:d0:ae:c2" value=""/>
+<input id="userurl" name="userurl" name="userurl" type="hidden" value="http://www.southplainscollege.edu" value=""/>
+<input id="uamip" name="uamip" name="uamip" type="hidden" value="185.0.0.1" value=""/>
+<input id="uamport" name="uamport" name="uamport" type="hidden" value="10000" value=""/>
+                                    <input id="timeZoneOffsetMins" name="timeZoneOffsetMins" name="timeZoneOffsetMins" type="hidden" value="0" value="0"/>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="login_google" class="slideout google">
+                            <div class="header button"><div class="label">Sign in with Google</div></div>
+                            <div class="content">
+                            <div class="error"></div>
+                                <form id="google_mobile_form" name="f" action="/signin/google" method="POST" onsubmit="return validateMobile(this);">
+                                	<input type="hidden" name="scope" value="openid profile email" />
+                                    <div class="field social_mobile_container">
+                                        <div class="preamble">Before continuing, please provide your mobile number.</div>
+                                        <label for="google_mobile">Mobile*:</label>
+                                        <input id="google_mobile" name="mobile" placeholder="555-555-5555" type="text" value="" autocomplete="off"/>
+                                    </div>
+                                    <div class="field optin">
+	                                	<div class="field optin_check_field">
+		                                	<input id="optin_check_google" name="doOptIn" name="optin" class="optin_check" type="checkbox" value="true"/><input type="hidden" name="_doOptIn" value="on"/>
+		                                	<label class="opt_in_text_label" for="optin_check_google"></label>
+	                                	</div>
+	                                </div>
+                                    <div class="tou terms_of_use_field"><span>By clicking the button below, I agree to the </span><a href="#" id="login_tou_link" class="tou_link">Terms of Use</a>.</div>
+		                            
+                                    <div class="required">* Indicates required fields.</div>
+                                    <input class="button fl_right submitBtn" type="submit" value="Continue" name="google_submit" />
+									
+
+<input id="graVq" name="graVq" name="graVq" type="hidden" value="cc3058e0-1a17-11e7-bdfd-0aa0118758ec" value=""/>
+<input id="tncVq" name="tncVq" name="tncVq" type="hidden" value="8cde6230-1a36-11e7-9909-0eef2865b14a" value=""/>
+<input id="thrVq" name="thrVq" name="thrVq" type="hidden" value=""/>
+<input id="ssid" name="ssid" name="ssid" type="hidden" value="SPC Guest" value=""/>
+<input id="challenge" name="challenge" name="challenge" type="hidden" value="adea59652f971fec6a7104cacf150686" value=""/>
+<input id="apmac" name="apmac" name="apmac" type="hidden" value="48:c0:93:5f:aa:26" value=""/>
+<input id="mac" name="mac" name="mac" type="hidden" value="54:13:79:d0:ae:c2" value=""/>
+<input id="userurl" name="userurl" name="userurl" type="hidden" value="http://www.southplainscollege.edu" value=""/>
+<input id="uamip" name="uamip" name="uamip" type="hidden" value="185.0.0.1" value=""/>
+<input id="uamport" name="uamport" name="uamport" type="hidden" value="10000" value=""/>
+                                    <input id="timeZoneOffsetMins" name="timeZoneOffsetMins" name="timeZoneOffsetMins" type="hidden" value="0" value="0"/>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="login_email" class="slideout email primary_border_color">
+                            <div class="header button orange primary_bg_color"><div class="label">Connect with Email</div></div>
+                            <div class="error"></div>
+                            <div class="content">
+                            	<div class="login_splash">
+                                    <button class="button tall primary_bg_color orange registerBtn">Register</button>
+                                    <div class="preamble">Already registered?</div>
+                                    <button class="button tall loginBtn">Login</button>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            	
+ 	            <div class="section login">
+	           		<div class="title uncleartext"><span class="title_register">Register or </span>Login to access <nobr><strong>Wi-Fi</strong></nobr> at <strong><span class='companyname'>South Plains College</span></strong></div>
+	                <div id="login_single" class="login_form">
+	                    <div class="header">Login</div>
+	                    <div class="content">
+	                    	<div class="sentpassword">Your password has been sent to you.</div>
+							<div class="error"></div>
+	                        <form id="login_form" name="f" action="/seeMainJs" method="POST">
+	                            <div class="username">
+	                               
+	                                <input id="username" name="username" placeholder="username" type="text" value="" autocomplete="off"/>
+	                                <div class="icon"></div>
+	                            </div>
+	                            <div class="password">
+                                 
+	                                <input id="loginpassword" name="password" placeholder="password" type="password" value="" autocomplete="off"/>
+	                                <div class="icon"></div>
+	                            </div>
+	                            <div id="forgot">
+	                                <a href="#forgot_password">Forgot Password?</a>
+	                            </div>
+								
+
+<input id="graVq" name="graVq" name="graVq" type="hidden" value="cc3058e0-1a17-11e7-bdfd-0aa0118758ec" value=""/>
+<input id="tncVq" name="tncVq" name="tncVq" type="hidden" value="8cde6230-1a36-11e7-9909-0eef2865b14a" value=""/>
+<input id="thrVq" name="thrVq" name="thrVq" type="hidden" value=""/>
+<input id="ssid" name="ssid" name="ssid" type="hidden" value="SPC Guest" value=""/>
+<input id="challenge" name="challenge" name="challenge" type="hidden" value="adea59652f971fec6a7104cacf150686" value=""/>
+<input id="apmac" name="apmac" name="apmac" type="hidden" value="48:c0:93:5f:aa:26" value=""/>
+<input id="mac" name="mac" name="mac" type="hidden" value="54:13:79:d0:ae:c2" value=""/>
+<input id="userurl" name="userurl" name="userurl" type="hidden" value="http://www.southplainscollege.edu" value=""/>
+<input id="uamip" name="uamip" name="uamip" type="hidden" value="185.0.0.1" value=""/>
+<input id="uamport" name="uamport" name="uamport" type="hidden" value="10000" value=""/>
+                                <input id="timeZoneOffsetMins" name="timeZoneOffsetMins" name="timeZoneOffsetMins" type="hidden" value="0" value="0"/>
+
+	                            <div class="terms_of_use_field">
+                                    <span>By clicking the button below, I agree to the </span><a href="#" id="login_tou_link" class="tou_link">Terms of Use</a>.
+                                </div>
+                                <div class="login_register_btn_container">
+                                	<a class="button cancelBtn tall full submitBtn">Cancel</a>
+		                        </div>
+                                
+                                <div class="login_submit_btn_container">
+                                    <input id="login_submit" class="button orange primary_bg_color tall full submitBtn" value="" type="submit" name="submit" />
+                                </div>
+		                        <div class="doregister">
+			                        Need a new account?<a href='#register'>Register</a>
+		                    	</div>
+	                        </form>
+	                    </div>
+	                </div>
+	                
+	                
+                     
+                    <div id="login_msg" class="customtext uncleartext">Custom slogan or other text goes here</div>
+                    <br/>
+	            </div>
+	            <div class="section register">
+	            	<div id="register_msg" class="customtext uncleartext">Custom slogan or other text goes here</div>
+	                <div class="register_form">
+	                    <div class="header">
+	                        <span class="title">Register</span>
+	                        <span class="subtitle">Register to access Wi-Fi at <span class='companyname'>South Plains College</span></span>
+	                    </div>
+	                    <div class="content">
+	            			
+	                        
+		                        <div class="required">* Indicates required fields.</div>
+		                        <div class="error"></div>
+		                        <form id="register_form" name="r" action="/register" method="POST">
+		                            <div class="field">
+		                                <label for="guestname">Guest Name<span class='highlight'>*</span>:</label>
+		                                <input id="guestname" name="guestname" name="name" type="text" value="" autocomplete="off"/>
+		                            </div>
+		                            <div class="field">
+		                                <label for="email">Email<span class='highlight'>*</span>:</label>
+		                                <input id="email" name="email" name="email" placeholder="guest@gmail.com" type="text" value="" autocomplete="off"/>
+		                            </div>
+		                            <div class="field sendtext">
+		                                <div class="field mobile mobile_carrier">
+		                                	
+		                            			<input id="textpassword" name="doTextPassword" name="sendtext" type="checkbox" value="true"/><input type="hidden" name="_doTextPassword" value="on"/>
+		                            			<label class="check_label" for="textpassword">Receive password via text message in addition to email.</label>
+		                            			<label for="mobile">Mobile<span id="mobile_highlight" class='highlight'>*</span>:</label>
+	                                        	<select id="country_select"></select>
+	                                        	<input id="mobile" name="mobile" name="mobile" placeholder="555-555-5555" type="text" value="" autocomplete="off"/>
+	                                        
+	                                    </div>
+	                                    <div class="field carrier mobile_carrier">
+	                                        <label for="carrier_select">Mobile Carrier<span class='highlight'>*</span>:</label>
+	                                        <select id="carrier_select" name="carrier" name="carrier"></select>
+	                                    </div>
+		                            </div>
+		                            <div id="registration_sponsor_field" class="field sponsor">
+		                                <label for="sponsor">Sponsor<span class='highlight'>*</span>:</label>
+		                                
+		                                <input id="sponsor" name="sponsor" name="sponsor" placeholder="Email" type="text" value="" autocomplete="off"/>
+		                                <span class="info_hover"></span>
+	                                    <div id="sponsor_tooltip" class="tooltip right">A sponsor is someone at South Plains College that can confirm you are a guest on the Wi-Fi.</div>
+		                            </div>
+		                            <div class="field disclaimer_field">
+	                                    <label></label>
+	                                    <div class="disclaimer">In providing your Personal Data to enable you to use our service, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of Xirrus, Inc. and the affiliates, agents and service providers referred to herein located in the United States and in other countries.</div>
+	                                </div>
+	                                
+	                                <div class="field optin">
+	                                	<div class="field optin_check_field">
+		                                	<input id="optin_check_register" name="doOptIn" name="optin" class="optin_check" type="checkbox" value="true"/><input type="hidden" name="_doOptIn" value="on"/>
+		                                	<label class="check_label opt_in_text_label" for="optin_check_register"></label>
+	                                	</div>
+	                                </div>
+		                            <div class="terms_of_use_field">
+	                                    <span>By clicking the button below, I agree to the </span><a href="#" id="login_tou_link" class="tou_link">Terms of Use</a>.
+	                                </div>
+		                            <div class="buttons">
+		                                <div class="left">
+		                                    <a class="button cancelBtn">Cancel</a>
+		                                </div>
+		                                <div class="right">
+		                                	
+		                                    <input class="button orange primary_bg_color submitBtn" id="registration_submit" type="submit" name="register" />
+		                                </div>
+		                            </div>
+		                            
+									
+
+<input id="graVq" name="graVq" name="graVq" type="hidden" value="cc3058e0-1a17-11e7-bdfd-0aa0118758ec" value=""/>
+<input id="tncVq" name="tncVq" name="tncVq" type="hidden" value="8cde6230-1a36-11e7-9909-0eef2865b14a" value=""/>
+<input id="thrVq" name="thrVq" name="thrVq" type="hidden" value=""/>
+<input id="ssid" name="ssid" name="ssid" type="hidden" value="SPC Guest" value=""/>
+<input id="challenge" name="challenge" name="challenge" type="hidden" value="adea59652f971fec6a7104cacf150686" value=""/>
+<input id="apmac" name="apmac" name="apmac" type="hidden" value="48:c0:93:5f:aa:26" value=""/>
+<input id="mac" name="mac" name="mac" type="hidden" value="54:13:79:d0:ae:c2" value=""/>
+<input id="userurl" name="userurl" name="userurl" type="hidden" value="http://www.southplainscollege.edu" value=""/>
+<input id="uamip" name="uamip" name="uamip" type="hidden" value="185.0.0.1" value=""/>
+<input id="uamport" name="uamport" name="uamport" type="hidden" value="10000" value=""/>
+                                    <input id="timeZoneOffsetMins" name="timeZoneOffsetMins" name="timeZoneOffsetMins" type="hidden" value="0" value="0"/>
+		                            
+		                        </form>
+							                            
+                            <div class="field other">
+                                Already registered? <a href='#login'>Login</a>
+                            </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="section complete">
+	            	<div id="success_msg" class="customtext uncleartext">Custom slogan or other text goes here</div>
+	                <div class="register_form done">
+	                    <div class="content">
+	                        <h1 class="primary_text_color">Registration Successful!</h1>
+	                        <p class="startsurfing">No need to log in; click below to access the web!</p>
+	                        <a id='complete_link' class='button tall orange primary_bg_color'>Access the web!</a>
+	                        <p>Just in case you need to log in on another device,<br />your password has been sent to:</p><p class='registration_details'><br /> </p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="section complete_self">
+	            	<div id=success_self_sponsor_msg class="customtext uncleartext">Custom slogan or other text goes here</div>
+	                <div class="register_form done">
+	                    <div class="content">
+	                        <h1 class="primary_text_color">Registration Successful!</h1>
+	                        Your password has been sent to:</p><p class='registration_details'><br /> </p>
+	                        <p>After you retrieve your credentials, click below to login.</p>
+	                        <a class='button tall orange primary_bg_color loginBtn'>LOGIN</a>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="section complete_sponsor">
+	            	<div id="success_sponsor_msg" class="customtext uncleartext">Custom slogan or other text goes here</div>
+	                <div class="register_form done">
+	                    <div class="content">
+	                        <h1 class="primary_text_color">Registration Successful!</h1>
+	                        <p>Once your sponsor <span class='primary_text_color sponsor_email'></span> confirms your information, your password will be sent to:</p><p class='registration_details'> <br /> </p>
+	                        <p class="startsurfing">Once you receive your password, you can start surfing the web, without having to log in.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="section forgot_password">
+	                <div class="forgot_password_form">
+	                    <div class="header">Forgot Password?</div>
+	                    <div class="content">
+		                	<div class="error"></div>
+	                        <form id="forgot_password_form" name="f" action="/forgotpassword" method="POST">
+	                            <div class="forgot_username">
+	                            	
+	                                <input id="forgot_username" name="username" placeholder="username" type="text" value="" autocomplete="off"/>
+	                                <div class="icon"></div>
+	                            </div>
+	                            <div class="start_over">
+	                                <a href="#login">Go back</a>
+	                            </div>
+	                            <input id="graVq" name="graVq" name="graVq" type="hidden" value="cc3058e0-1a17-11e7-bdfd-0aa0118758ec" value=""/>
+	                            <input id="tncVq" name="tncVq" name="tncVq" type="hidden" value="8cde6230-1a36-11e7-9909-0eef2865b14a" value=""/>
+	                            
+	                            <input style="font-size: 20px !important" value="RESET PASSWORD" class="button orange primary_bg_color tall full submitBtn" id="forgot_submit" type="submit" name="submit" />
+	                        </form>
+	                    </div>
+	                </div>
+	                <div class="doregister">
+                        Need a new account?<a href='#register' class='button'>Register</a>
+                    </div>
+	            </div>
+            </div>
+            <div class="poweredbyxirrus_wrapper">
+				<div class="poweredbyxirrus uncleartext">
+					<span>POWERED BY</span><span class="logo XIRRUS"></span>
+				</div>
+            </div>
+            <div id="terms_of_use_overlay">
+                <div class="container">
+                    <div class="inner">
+                        <div class="register_form terms_of_use">
+                            <div class="header">
+                                <div class="title">Terms of Use</div>
+                            </div>
+                            <div class="description">Please review the Terms of Use before proceeding with registration.</div>
+                            <textarea id="terms_of_use_text" readonly>Please replace this text with your organization's Terms of Use for the Guest Access Portal.</textarea>
+                            <div class="buttons">
+                                <a href="#" class="button orange primary_bg_color" id="close_tou">DONE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+<!--  These are localized messages for js files -->
+<span id="please_enter_username" style="display:none" >Please enter a username</span>
+<span id="please_enter_password" style="display:none" >Please enter a password</span>
+<span id="enter_guest_name" style="display:none" >Please enter a guest name</span>
+<span id="enter_valid_email" style="display:none" >Please enter a valid email address</span>
+<span id="enter_valid_mobile" style="display:none" >Please enter a valid mobile number</span>
+<span id="enter_sponsor_valid_email" style="display:none" >Please enter a sponsor with a valid email address</span>
+<span id="sponsor_is_someone" style="display:none" >A sponsor is someone at South Plains College that can confirm you are a guest on the Wi-Fi.</span>
+<span id="wifi_guest_portal" style="display:none" >Wi-Fi PORTAL</span>
+<span id="agree_register_guest" style="display:none" >AGREE & REGISTER</span>
+<span id="agree_login" style="display:none" >AGREE & LOGIN</span>
+<span id="agree_connect" style="display:none" >AGREE & CONNECT</span>
+<span id="register_guest" style="display:none" >Register</span>
+<span id="login_message" style="display:none" >Login</span>
+<span id="connect_message" style="display:none" >Connect</span>
+
+<span id="over_device_count" style="display:none" >You have reached your device limit. Please remove devices until you are under the limit before adding new devices.</span>
+<!-- js_message -->
+        <script src="/assets/js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="/assets/js/jquery.selectric.min.js"></script>
+        <script type="text/javascript" src="/assets/js/setdata.js"></script>
+        <script type="text/javascript" src="/assets/js/main.js"></script>
+         <script src="/assets/js/moment.js"></script>
+         <script src="/assets/js/moment-timezone-with-data.js"></script>
+         <script>
+             jQuery(function() {
+                 jQuery('[name="timeZoneOffsetMins"]').val(moment().utcOffset());
+             });
+         </script>
+         <script type="application/javascript">
+        window.loadData({
+        	isSelfReg : true,
+            primaryColor : '#F77631',
+            terms : "The computing resources at South Plains College support the educational, instructional, research, and administrative activities of the College and the use of these resources is a privilege that is extended to members of the SPC community. Acceptable use means respecting the rights of other computer users, the integrity of the physical facilities and all pertinent license and contractual agreements. If an individual is found to be in violation of the Acceptable Use Policy, the College will take disciplinary action. Individuals are also subject to federal, state and local laws governing interactions that occur on SPC information technology resources. \n\n(See Texas Administrative Code, Title 1, Part 10, Chapter 202, Subchapter C (TAC\u00A7202) and Texas Higher Education Coordinating Board)",
+            registerMessage : '',
+            logoUrl : 'https://s3.amazonaws.com/cirrus-prod-tenant-files/cc3058e0-1a17-11e7-bdfd-0aa0118758ec/images/SPC-ONLY.png',
+            backgroundImageUrl : '',
+            fullscreenBackground : false,
+            successMessage : '*Please make sure to check your junk\/spam folder for an email containing your Guest Access information.',
+            companyName : 'South Plains College',
+            loginMessage : '',
+            welcomeMessage : '',
+            showXirrusPowered : false,
+            requireSponsor : false,
+            requireSelfValidation : true,
+            manualSponsor : true,
+			sponsorEmail : '',
+			requireMobile : false,
+			showMobileAgreement : false,
+			optInText: '',
+            facebookEnabled : false,
+            googleEnabled : false
+        });
+        </script>
+    </body>
+</html>
+<!-- access -->

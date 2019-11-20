@@ -1,0 +1,987 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Home</title>
+<!-- headcode-home include -->
+<!-- CSS -->
+<link href="/_resources/css/styles.css?v=2" rel="stylesheet" />
+<meta name="theme-color" content="#00355A" />
+<link rel="icon" sizes="192x192" href="/_resources/images/structure/logos/spc192.png" />
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6/slick.css" media="screen" />
+<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6/slick-theme.css" media="screen" />
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet" /> 
+
+<!-- OU Styles -->
+<link rel="stylesheet" href="/_resources/css/oustyles.css?v=3" />
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Insert google analytics here --> <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-130547385-1" async=""></script>
+<script type="text/javascript">// <![CDATA[
+ 
+window.dataLayer = window.dataLayer || []; 
+function gtag(){dataLayer.push(arguments);} 
+gtag('js', new Date());
+
+gtag('config', 'UA-130547385-1'); 
+// ]]></script><script type="text/javascript">
+			var page_url="https://www.southplainscollege.edu/index.php";
+		</script></head>
+   <body>
+      <!-- OU Search Ignore Start Here -->
+      <div class="wrapper clearfix">
+         <div class="topnav visible-xs visible-sm visible-md visible-lg">
+            <div class="container-fluid">
+               <div class="row mobile-heading">
+                  <div class="col-sm-12"><a href="/">
+<div class="sm">
+	<div class="svg-icon">
+		<div class="svg-container">
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 289.4 54" style="enable-background:new 0 0 289.4 54;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00355A;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#F58426;}
+</style>
+<g id="XMLID_6_">
+	<g>
+		<g>
+			<path class="st1" d="M86.8,31l0.8-1.3c0.1-0.2,0.4-0.2,0.5-0.1c0.1,0,1.2,0.9,2.3,0.9c0.6,0,1.1-0.4,1.1-1c0-0.7-0.6-1.2-1.6-1.6
+				c-1.4-0.5-3.1-1.6-3.1-3.5c0-1.6,1.2-3.2,3.7-3.2c1.7,0,2.9,0.8,3.4,1.2c0.2,0.1,0.2,0.4,0.1,0.5l-0.8,1.2
+				c-0.1,0.2-0.4,0.3-0.5,0.2c-0.1-0.1-1.3-1-2.3-1c-0.6,0-1,0.4-1,0.8c0,0.6,0.5,1,1.7,1.6c1.2,0.5,3.2,1.5,3.2,3.6
+				c0,1.6-1.4,3.3-3.8,3.3c-2.1,0-3.2-0.9-3.6-1.2C86.8,31.3,86.7,31.2,86.8,31z"/>
+			<path class="st1" d="M101.6,21.2c3.2,0,5.8,2.6,5.8,5.8c0,3.2-2.6,5.7-5.8,5.7s-5.7-2.5-5.7-5.7C95.8,23.7,98.4,21.2,101.6,21.2z
+				 M101.6,30.1c1.8,0,3.2-1.4,3.2-3.2c0-1.8-1.4-3.2-3.2-3.2c-1.7,0-3.2,1.5-3.2,3.2C98.4,28.7,99.8,30.1,101.6,30.1z"/>
+			<path class="st1" d="M109.5,21.6c0-0.2,0.1-0.3,0.3-0.3h2c0.2,0,0.3,0.1,0.3,0.3v6.5c0,1.1,0.8,2,2,2c1.2,0,2-0.9,2-2v-6.5
+				c0-0.2,0.1-0.3,0.3-0.3h2c0.2,0,0.3,0.1,0.3,0.3v6.6c0,2.4-2,4.5-4.6,4.5c-2.5,0-4.5-2-4.5-4.5V21.6z"/>
+			<path class="st1" d="M123,23.7h-2.3c-0.2,0-0.3-0.1-0.3-0.3v-1.7c0-0.2,0.1-0.3,0.3-0.3h7.1c0.2,0,0.3,0.1,0.3,0.3v1.7
+				c0,0.2-0.1,0.3-0.3,0.3h-2.3v8.5c0,0.2-0.1,0.3-0.3,0.3h-1.9c-0.2,0-0.3-0.1-0.3-0.3V23.7z"/>
+			<path class="st1" d="M130.2,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v4h4.6v-4c0-0.2,0.1-0.3,0.3-0.3h1.9
+				c0.2,0,0.3,0.1,0.3,0.3v10.6c0,0.2-0.1,0.3-0.3,0.3h-1.9c-0.2,0-0.3-0.1-0.3-0.3V28h-4.6v4.2c0,0.2-0.1,0.3-0.3,0.3h-1.9
+				c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st1" d="M146.9,21.6c0-0.2,0.1-0.3,0.3-0.3h3.9c2,0,3.6,1.6,3.6,3.5c0,2-1.6,3.6-3.6,3.6h-1.7v3.8
+				c0,0.2-0.1,0.3-0.3,0.3h-1.9c-0.2,0-0.3-0.1-0.3-0.3V21.6z M150.9,26.1c0.7,0,1.3-0.5,1.3-1.3c0-0.7-0.6-1.2-1.3-1.2h-1.5v2.4
+				H150.9z"/>
+			<path class="st1" d="M156.6,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v8.5h3.8c0.2,0,0.3,0.1,0.3,0.3v1.7
+				c0,0.2-0.1,0.3-0.3,0.3h-6c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st1" d="M164.3,32.1l5-10.8c0-0.1,0.2-0.2,0.3-0.2h0.2c0.1,0,0.2,0.1,0.3,0.2l5,10.8c0.1,0.2,0,0.4-0.3,0.4H173
+				c-0.3,0-0.4-0.1-0.6-0.4l-0.6-1.3h-4.4l-0.6,1.3c-0.1,0.2-0.3,0.4-0.6,0.4h-1.8C164.3,32.5,164.2,32.3,164.3,32.1z M170.9,28.7
+				l-1.2-2.6h0l-1.2,2.6H170.9z"/>
+			<path class="st1" d="M176.7,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v10.6c0,0.2-0.1,0.3-0.3,0.3H177
+				c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st1" d="M182.4,21.5c0-0.2,0.1-0.3,0.3-0.3h0.4l6.4,6.1h0v-5.7c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3
+				v10.8c0,0.2-0.1,0.3-0.3,0.3h-0.3c0,0-0.2,0-0.2-0.1l-6.3-6.4h0v6c0,0.2-0.1,0.3-0.3,0.3h-1.9c-0.2,0-0.3-0.1-0.3-0.3L182.4,21.5
+				z"/>
+			<path class="st1" d="M194.5,31l0.8-1.3c0.1-0.2,0.4-0.2,0.5-0.1c0.1,0,1.2,0.9,2.3,0.9c0.6,0,1.1-0.4,1.1-1
+				c0-0.7-0.6-1.2-1.6-1.6c-1.4-0.5-3.1-1.6-3.1-3.5c0-1.6,1.2-3.2,3.7-3.2c1.7,0,2.9,0.8,3.4,1.2c0.2,0.1,0.2,0.4,0.1,0.5l-0.8,1.2
+				c-0.1,0.2-0.4,0.3-0.5,0.2c-0.1-0.1-1.3-1-2.3-1c-0.6,0-1,0.4-1,0.8c0,0.6,0.5,1,1.7,1.6c1.2,0.5,3.2,1.5,3.2,3.6
+				c0,1.6-1.4,3.3-3.8,3.3c-2.1,0-3.2-0.9-3.6-1.2C194.5,31.3,194.4,31.2,194.5,31z"/>
+			<path class="st1" d="M213.2,21.2c1.6,0,2.8,0.5,3.9,1.5c0.1,0.1,0.1,0.3,0,0.4l-1.2,1.3c-0.1,0.1-0.3,0.1-0.4,0
+				c-0.6-0.5-1.4-0.8-2.2-0.8c-1.8,0-3.1,1.5-3.1,3.3c0,1.8,1.3,3.2,3.2,3.2c0.8,0,1.6-0.3,2.1-0.8c0.1-0.1,0.3-0.1,0.4,0l1.2,1.3
+				c0.1,0.1,0.1,0.3,0,0.4c-1.1,1.1-2.5,1.6-3.9,1.6c-3.2,0-5.8-2.5-5.8-5.7C207.5,23.7,210,21.2,213.2,21.2z"/>
+			<path class="st1" d="M224.3,21.2c3.2,0,5.8,2.6,5.8,5.8c0,3.2-2.6,5.7-5.8,5.7s-5.7-2.5-5.7-5.7
+				C218.6,23.7,221.1,21.2,224.3,21.2z M224.3,30.1c1.8,0,3.2-1.4,3.2-3.2c0-1.8-1.4-3.2-3.2-3.2c-1.7,0-3.2,1.5-3.2,3.2
+				C221.1,28.7,222.6,30.1,224.3,30.1z"/>
+			<path class="st1" d="M232.4,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v8.5h3.8c0.2,0,0.3,0.1,0.3,0.3v1.7
+				c0,0.2-0.1,0.3-0.3,0.3h-6c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st1" d="M241,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v8.5h3.8c0.2,0,0.3,0.1,0.3,0.3v1.7
+				c0,0.2-0.1,0.3-0.3,0.3h-6c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st1" d="M249.6,21.6c0-0.2,0.1-0.3,0.3-0.3h6.6c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-4.4v2h3.6
+				c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-3.6v2.2h4.4c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-6.6
+				c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st1" d="M264.3,21.2c1.3,0,2.8,0.6,3.9,1.5c0.1,0.1,0.2,0.3,0,0.4l-1.3,1.3c-0.1,0.1-0.3,0.1-0.4,0
+				c-0.6-0.6-1.3-0.8-2.1-0.8c-1.7,0-3.2,1.5-3.2,3.2c0,1.7,1.4,3.2,3.2,3.2c0.5,0,0.9-0.1,1.4-0.3V29h-1c-0.2,0-0.3-0.1-0.3-0.3
+				v-1.6c0-0.2,0.1-0.3,0.3-0.3h3.2c0.2,0,0.3,0.1,0.3,0.3l0,4.3c0,0.1-0.1,0.2-0.1,0.3c0,0-1.6,1-4,1c-3.2,0-5.7-2.5-5.7-5.7
+				C258.5,23.7,261.1,21.2,264.3,21.2z"/>
+			<path class="st1" d="M271,21.6c0-0.2,0.1-0.3,0.3-0.3h6.6c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-4.4v2h3.6
+				c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-3.6v2.2h4.4c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-6.6
+				c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polygon class="st2" points="51.8,27 51.8,27 51.8,27 			"/>
+			<path class="st2" d="M61,11.6c0.9,0.7,1.7,1.5,2.4,2.4c0.5-0.1,1-0.1,1.5-0.1c5,0,9.3,2.6,11.5,6.9l5.2,0
+				C79,13.8,72.3,9.2,64.9,9.2c-2.1,0-4.2,0.4-6.1,1.1C59.6,10.6,60.3,11.1,61,11.6z"/>
+			<path class="st2" d="M39.6,41.1v3.7h6.3v-13C44.9,35.3,42.7,38.6,39.6,41.1z"/>
+			<path class="st2" d="M57.3,16.3L57.3,16.3c0.1,0.1,0.1,0.1,0.2,0.1c0.1,0,0.1,0.1,0.2,0.2c1.2,1.1,1.8,2.7,1.8,4.4
+				c0,3.7-3.6,5.5-7.2,5.6l0,0c0,0.1,0,0.2,0,0.3c0,0.3,0,0.5,0,0.7l0,0.1c0,0.2,0,0.4,0,0.5c0.1,1.3,0.4,2.4,0.8,3.4
+				c0.1,0.1,0.1,0.3,0.2,0.4c2.7,0,6.3-1,8.8-3.5c1.9-1.9,2.8-4.5,2.7-7.6c-0.1-2.5-0.7-4.7-1.9-6.5l0-0.1c0,0-0.1-0.1-0.1-0.1
+				c0,0-0.1-0.1-0.1-0.1l-0.1-0.1c-1.2-1.6-2.9-2.8-4.9-3.6c-0.1,0-0.2-0.1-0.3-0.1c-0.1,0-0.2-0.1-0.3-0.1c-1.4-0.5-3-0.8-4.4-0.8
+				H39.6v12.1l6.3,0v-6.8h6.7C54.5,14.8,56.1,15.3,57.3,16.3z"/>
+			<path class="st2" d="M22.9,22.3h-0.5l0.2-0.5c3.2-6.3,10.9-7.1,16.4-7.1V9.6c-11.3,0.1-23.4,5.6-23.6,17.3h24.5v0.3
+				c0,0.7-0.1,1.4-0.2,2.1c-0.1,0.4-0.1,0.7-0.2,1c-0.1,0.3-0.1,0.5-0.2,0.8c-1.7,5.5-6.8,9.3-12.6,9.3c-4.9,0-9.3-2.7-11.6-7
+				l-5.2,0c2.6,7,9.3,11.7,16.8,11.7c4.4,0,8.8-1.6,12.4-4.4l0.3-0.3c0,0,0.1-0.1,0.1-0.1c4.1-3.5,6.5-8.3,6.5-13.2v-4.9l-6.8,0
+				C33.2,22.3,25.4,22.3,22.9,22.3z"/>
+			<path class="st2" d="M76.5,33.3c-2.3,4.3-6.8,7-11.6,7c-2.9,0-5.6-0.9-7.8-2.5c-0.3-0.2-0.6-0.4-0.9-0.7
+				c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-0.8-0.8c-0.2-0.2-0.3-0.4-0.5-0.5c-0.1-0.1-0.2-0.2-0.3-0.4
+				c-0.3-0.4-0.6-0.8-0.9-1.3c0-0.1-0.1-0.1-0.1-0.2c-0.3-0.6-0.6-1.1-0.9-1.8c-0.1-0.1-0.1-0.3-0.2-0.4c-0.3-0.8-0.5-1.7-0.7-2.7
+				c0-0.1,0-0.2,0-0.3c-0.1-0.5-0.1-1-0.1-1.5c0-0.4,0-0.8,0.1-1.3c0-0.3,0.1-0.5,0.1-0.8c0-0.2,0.1-0.4,0.1-0.6
+				c0.1-0.3,0.1-0.5,0.2-0.8c0-0.2,0.1-0.3,0.2-0.5c0.1-0.3,0.2-0.6,0.3-0.9c0.1-0.1,0.1-0.3,0.2-0.4c0.1-0.3,0.3-0.6,0.4-0.9
+				c0-0.1,0.1-0.2,0.2-0.3c0.2-0.3,0.4-0.6,0.6-0.9c0,0,0.1-0.1,0.1-0.1c0.7-1.1,1.6-2.1,2.7-2.9c0,0,0,0,0,0c0,0,0,0,0,0l0,0
+				c-1.1-0.8-2.5-1.2-4.1-1.2h-1.4C48.5,18.7,47,22.8,47,27c0,9.9,8,17.9,17.9,17.9c7.5,0,14.2-4.7,16.8-11.7L76.5,33.3z"/>
+		</g>
+		<g id="XMLID_4_">
+			<path id="XMLID_13_" class="st2" d="M77.2,43.7h-0.5v-0.2h1.2v0.2h-0.5v1.4h-0.2V43.7z"/>
+			<path id="XMLID_9_" class="st2" d="M79.4,44.4c0-0.2,0-0.5,0-0.7h0c-0.1,0.2-0.1,0.4-0.2,0.6l-0.3,0.8h-0.2l-0.3-0.8
+				c-0.1-0.2-0.1-0.4-0.2-0.6h0c0,0.2,0,0.5,0,0.7l0,0.7H78l0.1-1.6h0.3l0.3,0.8c0.1,0.2,0.1,0.4,0.2,0.5h0c0-0.2,0.1-0.3,0.2-0.5
+				l0.3-0.8h0.3l0.1,1.6h-0.2L79.4,44.4z"/>
+		</g>
+	</g>
+</g>
+</svg>
+		</div>
+	</div>
+</div>
+</a><ul id="mobile_buttons" class="visible-xs nav pull-right text-left navbar-nav">
+                        <li class="pull-left open" id="menu-nav"><a href="#" title="Menu" class="pull-left"><span class="fa fa-bars"><span class="sr-only">Menu</span></span> Menu</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row topnav-action">
+                  <div class="col-ts-12 col-xs-12 col-sm-5 col-md-6 pull-right">
+                     <div class="row">
+                        <div class="col-ts-12 col-xs-12 col-sm-7 pull-right">
+                           <div class="custom-inline-input">
+                              <div class="input-group col-md-12">
+<form method="GET" action="/search/">	
+	<input size=20 class="form-query form-control queryAutocomplete" placeholder="Search SPC" type="text" name="query" id="query" title="query"/>
+	<span class="input-group-btn"> 
+		<label class="sr-only">Search</label> 
+		<button class="btn">
+			<span class="fa fa-search">
+				<span class="sr-only">Search</span>
+			</span>
+		</button>
+	</span>
+</form>
+</div>
+                           </div>
+                        </div><div class="col-ts-12 col-xs-12 col-sm-5 toggle-drop-container">
+   <ul class="toggle-drop">
+      <li class="dropdown"><a href="#link" class="dropdown btn btn-secondary dropdown-toggle" data-toggle="dropdown"><span class="color-orange fa fa-user" aria-hidden="false"><span class="sr-only">User</span></span> Login to…</a><ul class="dropdown-menu">
+            <li><a href="https://portal.southplainscollege.edu">MySPC</a></li>
+            <li><a href="https://southplainscollege.blackboard.com/" target="_blank">Blackboard</a></li>
+         </ul>
+      </li>
+   </ul>
+</div>                     </div>
+                  </div><div class="col-ts-12 col-xs-12 col-sm-7 col-md-6 target-aud-link">
+   <ul class="cf">
+      <li><a href="/parents_family/parents_family.php">Parents &amp; Families</a></li>
+      <li><a href="/community/community.php">Community &amp; Business</a></li>
+      <li><a href="/alumni-giving/foundation/donatenow.php">Donate Now</a></li>
+   </ul>
+</div>               </div>
+            </div>
+         </div>
+      </div>
+      <header class="wrapper" id="header" role="banner">
+         <div class="container" id="banner">
+<img alt="South Plains College" class="visible-print" height="63" src="/_resources/images/structure/logos/spc-logo.png" width="250" />
+            <div class="row clearfix hidden-print"><!--[if IE 8]><span style="display: none" id="ie8-flag"></span><![endif]-->
+               <div class="col-sm-12 cf">
+                  <div class="row">
+                     <div class="sitelogo"><a href="/">
+<div class="sm">
+	<div class="svg-icon">
+		<div class="svg-container">												
+			<h1>
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 289.4 54" style="enable-background:new 0 0 289.4 54;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00355A;}
+	.st1{fill:none;}
+	.st2{fill:#F58426;}
+</style>
+<g id="XMLID_6_">
+	<g>
+		<g>
+			<path class="st0" d="M86.8,31l0.8-1.3c0.1-0.2,0.4-0.2,0.5-0.1c0.1,0,1.2,0.9,2.3,0.9c0.6,0,1.1-0.4,1.1-1c0-0.7-0.6-1.2-1.6-1.6
+				c-1.4-0.5-3.1-1.6-3.1-3.5c0-1.6,1.2-3.2,3.7-3.2c1.7,0,2.9,0.8,3.4,1.2c0.2,0.1,0.2,0.4,0.1,0.5l-0.8,1.2
+				c-0.1,0.2-0.4,0.3-0.5,0.2c-0.1-0.1-1.3-1-2.3-1c-0.6,0-1,0.4-1,0.8c0,0.6,0.5,1,1.7,1.6c1.2,0.5,3.2,1.5,3.2,3.6
+				c0,1.6-1.4,3.3-3.8,3.3c-2.1,0-3.2-0.9-3.6-1.2C86.8,31.3,86.7,31.2,86.8,31z"/>
+			<path class="st0" d="M101.6,21.2c3.2,0,5.8,2.6,5.8,5.8c0,3.2-2.6,5.7-5.8,5.7s-5.7-2.5-5.7-5.7C95.8,23.7,98.4,21.2,101.6,21.2z
+				 M101.6,30.1c1.8,0,3.2-1.4,3.2-3.2c0-1.8-1.4-3.2-3.2-3.2c-1.7,0-3.2,1.5-3.2,3.2C98.4,28.7,99.8,30.1,101.6,30.1z"/>
+			<path class="st0" d="M109.5,21.6c0-0.2,0.1-0.3,0.3-0.3h2c0.2,0,0.3,0.1,0.3,0.3v6.5c0,1.1,0.8,2,2,2c1.2,0,2-0.9,2-2v-6.5
+				c0-0.2,0.1-0.3,0.3-0.3h2c0.2,0,0.3,0.1,0.3,0.3v6.6c0,2.4-2,4.5-4.6,4.5c-2.5,0-4.5-2-4.5-4.5V21.6z"/>
+			<path class="st0" d="M123,23.7h-2.3c-0.2,0-0.3-0.1-0.3-0.3v-1.7c0-0.2,0.1-0.3,0.3-0.3h7.1c0.2,0,0.3,0.1,0.3,0.3v1.7
+				c0,0.2-0.1,0.3-0.3,0.3h-2.3v8.5c0,0.2-0.1,0.3-0.3,0.3h-1.9c-0.2,0-0.3-0.1-0.3-0.3V23.7z"/>
+			<path class="st0" d="M130.2,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v4h4.6v-4c0-0.2,0.1-0.3,0.3-0.3h1.9
+				c0.2,0,0.3,0.1,0.3,0.3v10.6c0,0.2-0.1,0.3-0.3,0.3h-1.9c-0.2,0-0.3-0.1-0.3-0.3V28h-4.6v4.2c0,0.2-0.1,0.3-0.3,0.3h-1.9
+				c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st0" d="M146.9,21.6c0-0.2,0.1-0.3,0.3-0.3h3.9c2,0,3.6,1.6,3.6,3.5c0,2-1.6,3.6-3.6,3.6h-1.7v3.8
+				c0,0.2-0.1,0.3-0.3,0.3h-1.9c-0.2,0-0.3-0.1-0.3-0.3V21.6z M150.9,26.1c0.7,0,1.3-0.5,1.3-1.3c0-0.7-0.6-1.2-1.3-1.2h-1.5v2.4
+				H150.9z"/>
+			<path class="st0" d="M156.6,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v8.5h3.8c0.2,0,0.3,0.1,0.3,0.3v1.7
+				c0,0.2-0.1,0.3-0.3,0.3h-6c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st0" d="M164.3,32.1l5-10.8c0-0.1,0.2-0.2,0.3-0.2h0.2c0.1,0,0.2,0.1,0.3,0.2l5,10.8c0.1,0.2,0,0.4-0.3,0.4H173
+				c-0.3,0-0.4-0.1-0.6-0.4l-0.6-1.3h-4.4l-0.6,1.3c-0.1,0.2-0.3,0.4-0.6,0.4h-1.8C164.3,32.5,164.2,32.3,164.3,32.1z M170.9,28.7
+				l-1.2-2.6h0l-1.2,2.6H170.9z"/>
+			<path class="st0" d="M176.7,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v10.6c0,0.2-0.1,0.3-0.3,0.3H177
+				c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st0" d="M182.4,21.5c0-0.2,0.1-0.3,0.3-0.3h0.4l6.4,6.1h0v-5.7c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3
+				v10.8c0,0.2-0.1,0.3-0.3,0.3h-0.3c0,0-0.2,0-0.2-0.1l-6.3-6.4h0v6c0,0.2-0.1,0.3-0.3,0.3h-1.9c-0.2,0-0.3-0.1-0.3-0.3L182.4,21.5
+				z"/>
+			<path class="st0" d="M194.5,31l0.8-1.3c0.1-0.2,0.4-0.2,0.5-0.1c0.1,0,1.2,0.9,2.3,0.9c0.6,0,1.1-0.4,1.1-1
+				c0-0.7-0.6-1.2-1.6-1.6c-1.4-0.5-3.1-1.6-3.1-3.5c0-1.6,1.2-3.2,3.7-3.2c1.7,0,2.9,0.8,3.4,1.2c0.2,0.1,0.2,0.4,0.1,0.5l-0.8,1.2
+				c-0.1,0.2-0.4,0.3-0.5,0.2c-0.1-0.1-1.3-1-2.3-1c-0.6,0-1,0.4-1,0.8c0,0.6,0.5,1,1.7,1.6c1.2,0.5,3.2,1.5,3.2,3.6
+				c0,1.6-1.4,3.3-3.8,3.3c-2.1,0-3.2-0.9-3.6-1.2C194.5,31.3,194.4,31.2,194.5,31z"/>
+			<path class="st0" d="M213.2,21.2c1.6,0,2.8,0.5,3.9,1.5c0.1,0.1,0.1,0.3,0,0.4l-1.2,1.3c-0.1,0.1-0.3,0.1-0.4,0
+				c-0.6-0.5-1.4-0.8-2.2-0.8c-1.8,0-3.1,1.5-3.1,3.3c0,1.8,1.3,3.2,3.2,3.2c0.8,0,1.6-0.3,2.1-0.8c0.1-0.1,0.3-0.1,0.4,0l1.2,1.3
+				c0.1,0.1,0.1,0.3,0,0.4c-1.1,1.1-2.5,1.6-3.9,1.6c-3.2,0-5.8-2.5-5.8-5.7C207.5,23.7,210,21.2,213.2,21.2z"/>
+			<path class="st0" d="M224.3,21.2c3.2,0,5.8,2.6,5.8,5.8c0,3.2-2.6,5.7-5.8,5.7s-5.7-2.5-5.7-5.7
+				C218.6,23.7,221.1,21.2,224.3,21.2z M224.3,30.1c1.8,0,3.2-1.4,3.2-3.2c0-1.8-1.4-3.2-3.2-3.2c-1.7,0-3.2,1.5-3.2,3.2
+				C221.1,28.7,222.6,30.1,224.3,30.1z"/>
+			<path class="st0" d="M232.4,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v8.5h3.8c0.2,0,0.3,0.1,0.3,0.3v1.7
+				c0,0.2-0.1,0.3-0.3,0.3h-6c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st0" d="M241,21.6c0-0.2,0.1-0.3,0.3-0.3h1.9c0.2,0,0.3,0.1,0.3,0.3v8.5h3.8c0.2,0,0.3,0.1,0.3,0.3v1.7
+				c0,0.2-0.1,0.3-0.3,0.3h-6c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st0" d="M249.6,21.6c0-0.2,0.1-0.3,0.3-0.3h6.6c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-4.4v2h3.6
+				c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-3.6v2.2h4.4c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-6.6
+				c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+			<path class="st0" d="M264.3,21.2c1.3,0,2.8,0.6,3.9,1.5c0.1,0.1,0.2,0.3,0,0.4l-1.3,1.3c-0.1,0.1-0.3,0.1-0.4,0
+				c-0.6-0.6-1.3-0.8-2.1-0.8c-1.7,0-3.2,1.5-3.2,3.2c0,1.7,1.4,3.2,3.2,3.2c0.5,0,0.9-0.1,1.4-0.3V29h-1c-0.2,0-0.3-0.1-0.3-0.3
+				v-1.6c0-0.2,0.1-0.3,0.3-0.3h3.2c0.2,0,0.3,0.1,0.3,0.3l0,4.3c0,0.1-0.1,0.2-0.1,0.3c0,0-1.6,1-4,1c-3.2,0-5.7-2.5-5.7-5.7
+				C258.5,23.7,261.1,21.2,264.3,21.2z"/>
+			<path class="st0" d="M271,21.6c0-0.2,0.1-0.3,0.3-0.3h6.6c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-4.4v2h3.6
+				c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-3.6v2.2h4.4c0.2,0,0.3,0.1,0.3,0.3v1.7c0,0.2-0.1,0.3-0.3,0.3h-6.6
+				c-0.2,0-0.3-0.1-0.3-0.3V21.6z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polygon class="st1" points="51.8,27 51.8,27 51.8,27 			"/>
+			<path class="st2" d="M61,11.6c0.9,0.7,1.7,1.5,2.4,2.4c0.5-0.1,1-0.1,1.5-0.1c5,0,9.3,2.6,11.5,6.9l5.2,0
+				C79,13.8,72.3,9.2,64.9,9.2c-2.1,0-4.2,0.4-6.1,1.1C59.6,10.6,60.3,11.1,61,11.6z"/>
+			<path class="st2" d="M39.6,41.1v3.7h6.3v-13C44.9,35.3,42.7,38.6,39.6,41.1z"/>
+			<path class="st2" d="M57.3,16.3L57.3,16.3c0.1,0.1,0.1,0.1,0.2,0.1c0.1,0,0.1,0.1,0.2,0.2c1.2,1.1,1.8,2.7,1.8,4.4
+				c0,3.7-3.6,5.5-7.2,5.6l0,0c0,0.1,0,0.2,0,0.3c0,0.3,0,0.5,0,0.7l0,0.1c0,0.2,0,0.4,0,0.5c0.1,1.3,0.4,2.4,0.8,3.4
+				c0.1,0.1,0.1,0.3,0.2,0.4c2.7,0,6.3-1,8.8-3.5c1.9-1.9,2.8-4.5,2.7-7.6c-0.1-2.5-0.7-4.7-1.9-6.5l0-0.1c0,0-0.1-0.1-0.1-0.1
+				c0,0-0.1-0.1-0.1-0.1l-0.1-0.1c-1.2-1.6-2.9-2.8-4.9-3.6c-0.1,0-0.2-0.1-0.3-0.1c-0.1,0-0.2-0.1-0.3-0.1c-1.4-0.5-3-0.8-4.4-0.8
+				H39.6v12.1l6.3,0v-6.8h6.7C54.5,14.8,56.1,15.3,57.3,16.3z"/>
+			<path class="st2" d="M22.9,22.3h-0.5l0.2-0.5c3.2-6.3,10.9-7.1,16.4-7.1V9.6c-11.3,0.1-23.4,5.6-23.6,17.3h24.5v0.3
+				c0,0.7-0.1,1.4-0.2,2.1c-0.1,0.4-0.1,0.7-0.2,1c-0.1,0.3-0.1,0.5-0.2,0.8c-1.7,5.5-6.8,9.3-12.6,9.3c-4.9,0-9.3-2.7-11.6-7
+				l-5.2,0c2.6,7,9.3,11.7,16.8,11.7c4.4,0,8.8-1.6,12.4-4.4l0.3-0.3c0,0,0.1-0.1,0.1-0.1c4.1-3.5,6.5-8.3,6.5-13.2v-4.9l-6.8,0
+				C33.2,22.3,25.4,22.3,22.9,22.3z"/>
+			<path class="st2" d="M76.5,33.3c-2.3,4.3-6.8,7-11.6,7c-2.9,0-5.6-0.9-7.8-2.5c-0.3-0.2-0.6-0.4-0.9-0.7
+				c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-0.8-0.8c-0.2-0.2-0.3-0.4-0.5-0.5c-0.1-0.1-0.2-0.2-0.3-0.4
+				c-0.3-0.4-0.6-0.8-0.9-1.3c0-0.1-0.1-0.1-0.1-0.2c-0.3-0.6-0.6-1.1-0.9-1.8c-0.1-0.1-0.1-0.3-0.2-0.4c-0.3-0.8-0.5-1.7-0.7-2.7
+				c0-0.1,0-0.2,0-0.3c-0.1-0.5-0.1-1-0.1-1.5c0-0.4,0-0.8,0.1-1.3c0-0.3,0.1-0.5,0.1-0.8c0-0.2,0.1-0.4,0.1-0.6
+				c0.1-0.3,0.1-0.5,0.2-0.8c0-0.2,0.1-0.3,0.2-0.5c0.1-0.3,0.2-0.6,0.3-0.9c0.1-0.1,0.1-0.3,0.2-0.4c0.1-0.3,0.3-0.6,0.4-0.9
+				c0-0.1,0.1-0.2,0.2-0.3c0.2-0.3,0.4-0.6,0.6-0.9c0,0,0.1-0.1,0.1-0.1c0.7-1.1,1.6-2.1,2.7-2.9c0,0,0,0,0,0c0,0,0,0,0,0l0,0
+				c-1.1-0.8-2.5-1.2-4.1-1.2h-1.4C48.5,18.7,47,22.8,47,27c0,9.9,8,17.9,17.9,17.9c7.5,0,14.2-4.7,16.8-11.7L76.5,33.3z"/>
+		</g>
+		<g id="XMLID_4_">
+			<path id="XMLID_13_" class="st2" d="M77.2,43.7h-0.5v-0.2h1.2v0.2h-0.5v1.4h-0.2V43.7z"/>
+			<path id="XMLID_9_" class="st2" d="M79.4,44.4c0-0.2,0-0.5,0-0.7h0c-0.1,0.2-0.1,0.4-0.2,0.6l-0.3,0.8h-0.2l-0.3-0.8
+				c-0.1-0.2-0.1-0.4-0.2-0.6h0c0,0.2,0,0.5,0,0.7l0,0.7H78l0.1-1.6h0.3l0.3,0.8c0.1,0.2,0.1,0.4,0.2,0.5h0c0-0.2,0.1-0.3,0.2-0.5
+				l0.3-0.8h0.3l0.1,1.6h-0.2L79.4,44.4z"/>
+		</g>
+	</g>
+</g>
+</svg>
+            
+			</h1> 
+		</div>
+	</div>
+</div>
+</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header><div class="container-fluid">
+   <div class="row clearfix hidden-print">
+      <div id="yamm-placeholder">
+         <div class=" yamm">
+            <div class="container">
+               <nav role="navigation" id="navbar-collapse-1">
+                  <ul class="nav navbar navbar-nav navbar-right">
+                     <li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Login to…</a><ul class="dropdown-menu">
+                           <li class="container">
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-12 list-unstyled">
+                                       <li><a href="https://portal.southplainscollege.edu">MySPC</a></li>
+                                       <li><a href="https://southplainscollege.blackboard.com/">Blackboard</a></li>
+                                       <li><a href="http://vsb.southplainscollege.edu/">Visual Schedule Builder</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Degrees &amp; Programs</a><ul class="dropdown-menu">
+                           <li class="container">
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-12 list-unstyled">
+                                       <li><a href="/exploreprograms.php">Explore Programs</a></li>
+                                       <li><a href="http://catalog.southplainscollege.edu/">Online Catalog</a></li>
+                                       <li><a href="https://southplainscollege.emsicc.com/" target="_blank">Career Coach<br></a></li>
+                                       <li><a href="https://www.southplainscollege.edu/community/continuinged.php">Continuing Ed &amp; Workforce Development<br></a></li>
+                                       <li><a href="/admission-aid/apply/dualcredit/dualcredit.php">Dual Credit</a></li>
+                                       <li><a href="/destinationraiderland/index.php">Texan to Red Raider</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Student Services</a><ul class="dropdown-menu">
+                           <li class="container">
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-12 list-unstyled">
+                                       <li><a href="/apply.php">Apply Online</a></li>
+                                       <li class="dropdown-submenu"><a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Advising &amp; Testing
+                                             </a><ul class="dropdown-menu">
+                                             <li><a href="/admission-aid/advising.php" tabindex="0">Advising</a></li>
+                                             <li><a href="/testing/" tabindex="0">Testing</a></li>
+                                          </ul>
+                                       </li>
+                                       <li><a href="/health/disabilityservices.php">Disability Services</a></li>
+                                       <li class="dropdown-submenu"><a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Health and Wellness</a><ul class="dropdown-menu">
+                                             <li><a href="/health/studenthealth.php" tabindex="0">Health&nbsp;&amp; Wellness</a></li>
+                                             <li><a href="/health/mentalhealthresources.php" tabindex="0">Mental Health Resources</a></li>
+                                          </ul>
+                                       </li>
+                                       <li><a href="/instructional-technology/instructional-technology.php">Instructional Technology</a></li>
+                                       <li><a href="/campuslife/library/index.php">Library</a></li>
+                                       <li class="dropdown-submenu"><a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Paying for College
+                                             </a><ul class="dropdown-menu">
+                                             <li><a href="/admission-aid/paying-for-school/businessoffice.php" tabindex="0">Business Office</a></li>
+                                             <li><a href="/admission-aid/paying-for-school/financial_aid.php" tabindex="0">Financial Aid</a></li>
+                                             <li><a href="/admission-aid/paying-for-school/scholarships.php" tabindex="0">Scholarships</a></li>
+                                             <li><a href="/admission-aid/paying-for-school/tuitionfees.php" tabindex="0">Tuition &amp; Fees</a></li>
+                                             <li><a href="/admission-aid/paying-for-school/financial-aid/cost.php" tabindex="0">Cost of Attendance</a></li>
+                                          </ul>
+                                       </li>
+                                       <li><a href="http://catalog.southplainscollege.edu/index.php?catoid=49">Student Guide</a></li>
+                                       <li><a href="/technology-center.php">Technology Center</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Campus Life &amp; Housing</a><ul class="dropdown-menu">
+                           <li class="container">
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-12 list-unstyled">
+                                       <li><a href="/campuslife/dining.php">Dining</a></li>
+                                       <li><a href="/campuslife/parking.php">Parking</a></li>
+                                       <li><a href="/campuslife/residencehalls/index.php">Residence Halls</a></li>
+                                       <li class="dropdown-submenu"><a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Get Involved
+                                             </a><ul class="dropdown-menu">
+                                             <li><a href="http://www.imleagues.com/spa/intramural/947dcc375b55444ab5931f1d3d44c3e2/home" target="_blank" tabindex="0">Intramurals</a></li>
+                                             <li><a href="https://myspc.southplainscollege.edu/ics/Campus_Life/" target="_blank" tabindex="0">Clubs &amp; Activities</a></li>
+                                          </ul>
+                                       </li>
+                                       <li><a href="/campuslife/starcenter.php">Star Center</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown yamm-fw"><a href="http://www.spctexans.com/landing/index"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Athletics</a></li>
+                     <li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Alumni &amp; Giving</a><ul class="dropdown-menu">
+                           <li class="container">
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-12 list-unstyled">
+                                       <li><a href="/alumni-giving/foundation/foundation.php">Foundation Overview</a></li>
+                                       <li><a href="/alumni-giving/alumni-friends/alumnifriends.php">Alumni &amp; Friends</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>About</a><ul class="dropdown-menu">
+                           <li class="container">
+                              <div class="yamm-content">
+                                 <div class="row">
+                                    <ul class="col-sm-12 list-unstyled">
+                                       <li class="dropdown-submenu"><a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Office of the President</a><ul class="dropdown-menu">
+                                             <li><a href="/about/presidentswelcome.php" tabindex="0">President's Welcome</a></li>
+                                          </ul>
+                                       </li>
+                                       <li><a href="http://www.southplainscollege.edu/about/aboutspc.php">About South Plains College</a></li>
+                                       <li><a href="/about/board_of_regents/boardofregents.php">Board of Regents</a></li>
+                                       <li><a href="/about/board_of_regents/boardminutes.php">Board Postings</a></li>
+                                       <li><a href="/about/publicnotice.php">Public Notice of ACEN Review</a></li>
+                                       <li class="dropdown-submenu"><a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>College Overview</a><ul class="dropdown-menu">
+                                             <li><a href="/about/aboutspc.php" tabindex="0">Overview</a></li>
+                                             <li><a href="/about/financial_information/annualfinancialreport.php" tabindex="0">Financial Information</a></li>
+                                             <li><a href="/ecoimpact.php" tabindex="0">Economic Impact</a></li>
+                                          </ul>
+                                       </li>
+                                       <li class="dropdown-submenu"><a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Campus Safety</a><ul class="dropdown-menu">
+                                             <li><a href="/about/campussafety/emergencyprocedures.php" tabindex="0">Emergency Procedures</a></li>
+                                             <li><a href="/about/campussafety/campuspolice.php" tabindex="0">Campus Police</a></li>
+                                             <li><a href="/campuscarry.php" tabindex="0">Campus Carry</a></li>
+                                             <li><a href="/about/campussafety/complaints.php" tabindex="0">Complaints &amp; Incident Reports</a></li>
+                                             <li><a href="/about/campussafety/sah.php" tabindex="0">Sexual Assault &amp; Harassment</a></li>
+                                             <li><a href="/campuslife/parking.php" tabindex="0">Parking Regulations</a></li>
+                                          </ul>
+                                       </li>
+                                       <li><a href="/about/campus_locations/campuslocations.php">Campus Locations</a></li>
+                                       <li><a href="/newsroom/index.php">News &amp; Events</a></li>
+                                       <li><a href="/directory/index.php">Departmental Directory</a></li>
+                                       <li><a href="/faculty/index.php">Faculty &amp; Staff Directory</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>      <!-- OU Search Ignore End Here -->
+      <div class="wrapper clearfix background-grey">
+         <div class="container-fluid main-banner">
+            <div class="row">
+               <div class="slick-slider">
+                  <div><a href="https://fs.southplainscollege.edu/adfs/ls?wa=wsignin1.0&amp;wtrealm=urn%3aportal.southplainscollege.edu%3a443&amp;wctx=https%3a%2f%2fportal.southplainscollege.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fportal.southplainscollege.edu%2f_trust%2fdefault.aspx"><img src="https://www.southplainscollege.edu/_ldp/.private_ldp/a91513/production/master/c4846aab-37a1-4073-85ab-5fc68237d9a1.png" alt=""></a><div class="caption">
+                        <div><a href="https://fs.southplainscollege.edu/adfs/ls?wa=wsignin1.0&amp;wtrealm=urn%3aportal.southplainscollege.edu%3a443&amp;wctx=https%3a%2f%2fportal.southplainscollege.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fportal.southplainscollege.edu%2f_trust%2fdefault.aspx"></a></div>
+                     </div>
+                  </div>
+                  <div><a href="https://www.southplainscollege.edu/terribletex.php"><img src="https://www.southplainscollege.edu/_ldp/.private_ldp/a91513/production/master/4870afca-7fef-4899-a58b-a4783686853d.png" alt=""></a><div class="caption">
+                        <div><a href="https://www.southplainscollege.edu/terribletex.php"></a></div>
+                     </div>
+                  </div>
+                  <div><a href="http://www.southplainscollege.edu/graduation/"><img src="https://www.southplainscollege.edu/_ldp/.private_ldp/a91513/production/master/f50968e0-3239-4b48-97e2-cf275b1a913c.png" alt=""></a><div class="caption">
+                        <div><a href="http://www.southplainscollege.edu/graduation/"></a></div>
+                     </div>
+                  </div>
+                  <div><img src="https://www.southplainscollege.edu/_ldp/.private_ldp/a91513/production/master/466ec6bd-9685-4a20-aa59-74c3f1597b11.png" alt=""><div class="caption">
+                        <div><a href=""></a></div>
+                     </div>
+                  </div>
+                  <div><a href=" /SPCViewbook2018.pdf"><img src="https://www.southplainscollege.edu/_ldp/.private_ldp/a91513/production/master/13044a12-5826-4046-8dcc-eb41ac5ddd4a.jpg" alt=""></a><div class="caption">
+                        <div><a href=" /SPCViewbook2018.pdf"></a></div>
+                     </div>
+                  </div>
+                  <div><img src="https://www.southplainscollege.edu/_ldp/.private_ldp/a91513/production/master/92eb1527-0cfe-4fdd-928d-8816e88ad10b.jpg" alt=""><div class="caption">
+                        <div><a href=""></a></div>
+                     </div>
+                  </div>
+                  <div><img src="https://www.southplainscollege.edu/_ldp/.private_ldp/a91513/production/master/74937999-d769-4bcf-ad3e-4bd56ce163bb.png" alt=""><div class="caption">
+                        <div><a href=""></a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper background-grey clearfix">
+         <div class="container">
+            <div class="row subfeature subfeature-buttons">
+               <div class="col-md-4 col-xs-6 col-ts-12 subfeature-button1">
+                  <div class="subfeature-box">
+                     <p><a href="/exploreprograms.php" class="subfeature-img"><img src="/_resources/images/stock/subfeature/explore-programs.jpg" alt="a female graduate waves "></a><a href="/exploreprograms.php" class="subfeature-border">Explore Programs</a></p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-xs-6 col-ts-12 subfeature-button2">
+                  <div class="subfeature-box">
+                     <p><a href="https://apply.southplainscollege.edu/Ellucian.ERecruiting.Web.External/Pages/Welcome.aspx" class="subfeature-img"><img src="/_resources/images/stock/subfeature/tour.jpg" alt="Schedule a Tour"></a><a href="https://apply.southplainscollege.edu/Ellucian.ERecruiting.Web.External/Pages/Welcome.aspx" class="subfeature-border">Schedule a Tour</a></p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-xs-6 col-ts-12 subfeature-button3">
+                  <div class="subfeature-box">
+                     <p><a href="https://apply.southplainscollege.edu/Ellucian.ERecruiting.Web.External/Pages/prospectinquiry.aspx?f=726b8255-f1d7-41cd-8fb9-f2fb3ebd2dcf&amp;o=6cdbb024-9fdf-4581-bff3-e6e1fff1ea72" class="subfeature-img"><img src="/_resources/images/stock/subfeature/request-information.jpg" alt="Request Information"></a><a href="https://apply.southplainscollege.edu/Ellucian.ERecruiting.Web.External/Pages/prospectinquiry.aspx?f=726b8255-f1d7-41cd-8fb9-f2fb3ebd2dcf&amp;o=6cdbb024-9fdf-4581-bff3-e6e1fff1ea72" class="subfeature-border">Request Information</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <div class="wrapper background-grey clearfix">
+         <div class="container">
+            <div class="row subfeature subfeature-buttons">
+               <div class="col-md-4 col-xs-6 col-ts-12 subfeature-button1">
+                  <div class="subfeature-box">
+                     <p><a href="/admission-aid/apply/dualcredit/dualcredit.php" class="subfeature-img"><img src="/_resources/images/stock/subfeature/dual-credit.jpg" alt="dual credit"></a><a href="/admission-aid/apply/dualcredit/dualcredit.php" class="subfeature-border">Dual Credit</a></p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-xs-6 col-ts-12 subfeature-button2">
+                  <div class="subfeature-box">
+                     <p><a href="http://www.southplainscollege.edu/community/continuinged.php" class="subfeature-img"><img src="/_resources/images/stock/subfeature/trucks-new.jpg" alt="Trucks"></a><a href="http://www.southplainscollege.edu/community/continuinged.php" class="subfeature-border">Workforce &amp; Continuing Ed</a></p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-xs-6 col-ts-12 subfeature-button3">
+                  <div class="subfeature-box">
+                     <p><a title="Spring Registration" href="https://fs.southplainscollege.edu/adfs/ls?wa=wsignin1.0&amp;wtrealm=urn%3aportal.southplainscollege.edu%3a443&amp;wctx=https%3a%2f%2fportal.southplainscollege.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fportal.southplainscollege.edu%2f_trust%2fdefault.aspx" target="_blank" class="subfeature-img"><img src="/_resources/images/stock/subfeature/orientation.jpg" alt="Orientation Registration"></a><a title="Spring Registration" href="https://fs.southplainscollege.edu/adfs/ls?wa=wsignin1.0&amp;wtrealm=urn%3aportal.southplainscollege.edu%3a443&amp;wctx=https%3a%2f%2fportal.southplainscollege.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fportal.southplainscollege.edu%2f_trust%2fdefault.aspx" target="_blank" class="subfeature-border">Spring&nbsp;Registration</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper background-inverse-feature clearfix">
+         <div class="container-fluid">
+            <div class="background-action-list"><img src="/_resources/images/stock/homepage-banner.png" alt="Graduation" width="1355" height="350"></div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <div class="action-container">
+                        <h2 class="sr-only">Learn more</h2>
+                        <div class="action-list">
+                           <div class="panel-group" id="accordion-row-content-22">
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-row-content-22" href="#collapse-row-content-221" class="accordion-toggle collapsed"><span class="sprite list_icon_doc"><span class="sr-only">Document</span></span>Apply or Register for Classes<span class="toggle-arrow"><span class="fa fa-caret-left " aria-hidden="false"><span class="sr-only">Expand</span></span></span></a></h3>
+                                 </div>
+                                 <div id="collapse-row-content-221" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       
+                                       <h4>Application for Admission</h4>
+                                       
+                                       <p>Thinking of coming to South Plains College?&nbsp; Whether you are interested in an academic
+                                          program that will transfer to a university or a technical program that will give you
+                                          an associate's degree and skills to start a new career, SPC is a great choice.&nbsp; You
+                                          will find high quality education and career training with an added bonus - <em>personal attention</em>.
+                                       </p>
+                                       
+                                       <p>SPC offers you:</p>
+                                       
+                                       <ul>
+                                          
+                                          <li>
+                                             
+                                             <div>More than 100 programs of study</div>
+                                             
+                                          </li>
+                                          
+                                          <li>
+                                             
+                                             <div>Affordable tuition and fees</div>
+                                             
+                                          </li>
+                                          
+                                          <li>
+                                             
+                                             <div>Career programs that prepare you for success in the job market</div>
+                                             
+                                          </li>
+                                          
+                                          <li>
+                                             
+                                             <div>State-of-the-art instructional equipment and hands-on training</div>
+                                             
+                                          </li>
+                                          
+                                          <li>
+                                             
+                                             <div>Small classes and one-on-one training</div>
+                                             
+                                          </li>
+                                          
+                                          <li>
+                                             
+                                             <div>A college with traditions</div>
+                                             
+                                          </li>
+                                          
+                                       </ul>
+                                       
+                                       <p>At South Plains College, we want you to reach your fullest potential. So we work to
+                                          support you in clarifying your goals, developing your talents and skills, and challenging
+                                          you to become an independent, lifelong learner.
+                                       </p>
+                                       
+                                       <p>SPC students are people who want to improve the quality of their lives. So our success
+                                          at SPC is measured by the success of students. In preparing you for academic transfer
+                                          or a satisfying career, faculty and staff take a personal interest in helping you
+                                          achieve your educational goals.&nbsp;&nbsp;
+                                       </p>
+                                       
+                                       <p><a href="/apply.php">APPLY NOW</a></p>
+                                       
+                                       <p>&nbsp;</p>
+                                       
+                                       <p><strong>Already Accepted?&nbsp;&nbsp;</strong><strong><a href="http://www.southplainscollege.edu/admission-aid/apply/registration_instructions_spring19.pdf" target="_blank">REGISTER FOR CLASSES</a></strong></p>
+                                       
+                                       <p>&nbsp;</p>
+                                       
+                                       <p>Dual Credit students?&nbsp;<a href="/admission-aid/apply/dualcredit/dualcredit.php">More&gt;&gt;</a></p>
+                                       
+                                       <p>Are you on Academic Suspension?&nbsp;<a href="/admission-aid/apply/academicsuspension.php">More&gt;&gt;</a></p>
+                                       
+                                       <p>&nbsp;</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-row-content-22" href="#collapse-row-content-222" class="accordion-toggle collapsed"><span class="sprite list_icon_pencil"><span class="sr-only">Pencil</span></span>Advising and Testing<span class="toggle-arrow"><span class="fa fa-caret-left " aria-hidden="false"><span class="sr-only">Expand</span></span></span></a></h3>
+                                 </div>
+                                 <div id="collapse-row-content-222" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       
+                                       <h4>Advising</h4>
+                                       
+                                       <p>The advising system at South Plains College is a continuous process designed to foster
+                                          the development of the student’s successful educational plan compatible with the unique
+                                          life goals of the individual student. By practicing a holistic, proactive approach,
+                                          South Plains College advising creates a student-centered environment from which students
+                                          emerge as independent life long learners. <a href="/admission-aid/advising.php">Speak to an&nbsp;advisor&gt;&gt;</a></p>
+                                       
+                                       <h4>Testing</h4>
+                                       
+                                       <p>The Testing Center is committed to maintain the highest compliance with nationally
+                                          recognized professional testing standards and practices, safeguarding confidentiality
+                                          of student records, and creating an optimal testing environment. <a href="/testing/">More&gt;&gt;</a></p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-row-content-22" href="#collapse-row-content-223" class="accordion-toggle collapsed"><span class="sprite list_icon_money"><span class="sr-only">Money</span></span>Paying for College<span class="toggle-arrow"><span class="fa fa-caret-left " aria-hidden="false"><span class="sr-only">Expand</span></span></span></a></h3>
+                                 </div>
+                                 <div id="collapse-row-content-223" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       
+                                       <h4>Business Office</h4>
+                                       
+                                       <p><span>The Business Office is committed to helping students reach their ultimate goal of
+                                             graduating from SPC or transferring onto a 4 year institution. <a href="/admission-aid/paying-for-school/businessoffice.php">Learn more &gt;&gt;</a></span></p>
+                                       
+                                       <h4>Financial Need</h4>
+                                       
+                                       <p>A key element in determining financial need is determining the cost to attend a particular
+                                          institution for a given period of time. The Cost of Attendance is estimated to show
+                                          how much it may cost a student to attend SPC for nine months (based on 12 or more
+                                          hours per semester). <a href="/admission-aid/paying-for-school/financial_aid.php">Need Financial Aid Help</a><a href="/admission-aid/paying-for-school/financial_aid.php">&gt;&gt;</a></p>
+                                       
+                                       <h4>Tuition and Fees</h4>
+                                       
+                                       <p>SPC offers quality education at an affordable price. See how SPC is one of the&nbsp;most
+                                          affordable community colleges in the State of Texas. <a href="/admission-aid/paying-for-school/tuitionfees.php">Learn more &gt;&gt;</a></p>
+                                       
+                                       <h4>Cost of Attendance</h4>
+                                       
+                                       <p><span><span>View this information to learn more about the overall cost of your education.</span>.</span><span> </span><a href="/admission-aid/paying-for-school/financial-aid/cost.php">Learn more &gt;&gt;</a></p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-row-content-22" href="#collapse-row-content-224" class="accordion-toggle collapsed"><span class="sprite list_icon_cap"><span class="sr-only">Graduation Cap</span></span>Scholarships<span class="toggle-arrow"><span class="fa fa-caret-left " aria-hidden="false"><span class="sr-only">Expand</span></span></span></a></h3>
+                                 </div>
+                                 <div id="collapse-row-content-224" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       
+                                       <h4>Scholarships</h4>
+                                       
+                                       <p>South Plains College administers a number of scholarship programs that are not limited
+                                          to a specific major field of study. These scholarships are open to all eligible students.
+                                          Amounts for each award vary and are dependent upon available funds. Students interested
+                                          in specific activity scholarships should contact the departments listed in the activity
+                                          scholarship descriptions concerning interviews, auditions or departmental scholarship
+                                          applications if applicable.
+                                       </p>
+                                       
+                                       <h4>How to Apply</h4>
+                                       
+                                       <p>A single online scholarship application is used to apply for all scholarships administered
+                                          by South Plains College. <a href="/admission-aid/paying-for-school/scholarships.php">More&gt;&gt;</a></p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-row-content-22" href="#collapse-row-content-225" class="accordion-toggle collapsed"><span class="sprite list_icon_home"><span class="sr-only">House</span></span>Housing<span class="toggle-arrow"><span class="fa fa-caret-left " aria-hidden="false"><span class="sr-only">Expand</span></span></span></a></h3>
+                                 </div>
+                                 <div id="collapse-row-content-225" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       
+                                       <h4>Residence Halls</h4>
+                                       
+                                       <p>At South Plains College, residence halls are not just a place to eat and sleep; they
+                                          are an integral part of college life. SPC provides full-time students, carrying 12
+                                          or more semester hours, with modern, comfortable and affordable housing. Living in
+                                          a residence hall provides the opportunity to meet new friends and associate with other
+                                          students from different cities, states and countries. In the process, students grow
+                                          and develop as people, capable of taking on the responsibilities of living with others.
+                                          <a href="/campuslife/residencehalls/index.php">More&gt;&gt;</a></p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-row-content-22" href="#collapse-row-content-226" class="accordion-toggle collapsed"><span class="sprite list_icon_spc"><span class="sr-only">SPC</span></span>New Student Orientation<span class="toggle-arrow"><span class="fa fa-caret-left " aria-hidden="false"><span class="sr-only">Expand</span></span></span></a></h3>
+                                 </div>
+                                 <div id="collapse-row-content-226" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       
+                                       <h4>About Orientation</h4>
+                                       
+                                       <p>New Student Orientation gives new students the knowledge needed to be successful as
+                                          a student at South Plains College. In addition, you will meet with an academic advisor
+                                          and register for classes. Each South Plains College campus has a unique orientation
+                                          experience. Attend the orientation program at the campus in which you plan to take
+                                          the majority of your classes. Orientation Registration will open May 5th. &nbsp;
+                                       </p>
+                                       
+                                       <p><a href="/orientation/index.php">More&gt;&gt;</a></p>
+                                       
+                                       <h4>New Student Checklist</h4>
+                                       
+                                       <p>To ensure that you have a useful orientation there are a few things that <strong>must</strong> be completed before attending. If these items are not complete, you will not be able
+                                          to register for classes at orientation. <a title="Student Checklist" href="/SPC-checklist-card-PRINT-updated.pdf">View Checklist&gt;&gt;</a></p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="panel">
+                                 <div class="panel-heading">
+                                    <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-row-content-22" href="#collapse-row-content-227" class="accordion-toggle collapsed"><span class="sprite list_icon_check"><span class="sr-only">Checkmark</span></span>Online Catalog &amp; Class Schedules<span class="toggle-arrow"><span class="fa fa-caret-left " aria-hidden="false"><span class="sr-only">Expand</span></span></span></a></h3>
+                                 </div>
+                                 <div id="collapse-row-content-227" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                       
+                                       <h4>Courses</h4>
+                                       
+                                       <p><span>SPC&nbsp;has an outstanding record of academic quality, offering associate's degree programs,
+                                             certificates and training and technical programs. View programs in our</span>&nbsp;<a href="http://catalog.southplainscollege.edu/">Online Catalog</a>&nbsp;or view <a href="https://ellucianss1.southplainscollege.edu/Student/Courses">Class Offerings</a>.
+                                       </p>
+                                       
+                                       <p>&nbsp;</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-4">
+               <section class="row subfeature subfeature-events">
+                  <div class="col-sm-12">
+                     <h2><a href="http://southplainscollege.com/calendar/">Events</a></h2><div class="dateblock clearfix">	<a class="date" href="https://www.southplainscollege.edu/calendar/index.php?eID=3059">Nov 01</a>	<p><a href="https://www.southplainscollege.edu/calendar/index.php?eID=3059">SPC Rodeo vs. Texas Tech University</a><span class="time">12:00 AM</span></p></div><div class="dateblock clearfix">	<a class="date" href="https://www.southplainscollege.edu/calendar/index.php?eID=3060">Nov 02</a>	<p><a href="https://www.southplainscollege.edu/calendar/index.php?eID=3060">SPC Rodeo vs. Texas Tech University</a><span class="time">12:00 AM</span></p></div><div class="dateblock clearfix">	<a class="date" href="https://www.southplainscollege.edu/calendar/index.php?eID=3079">Nov 02</a>	<p><a href="https://www.southplainscollege.edu/calendar/index.php?eID=3079">Lady Texans Basketball vs Coastal Bend</a><span class="time">1:00 PM</span></p></div><div class="dateblock clearfix">	<a class="date" href="https://www.southplainscollege.edu/calendar/index.php?eID=3078">Nov 03</a>	<p><a href="https://www.southplainscollege.edu/calendar/index.php?eID=3078">Daylight Savings Time Ends</a><span class="time">7:00 AM</span></p></div>                     <div class="row readmorelink">
+                        <div class="col-sm-12 text-right">
+                           <p><a class="readmore" href="http://southplainscollege.com/calendar/">All Events</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+            <div class="col-sm-8">
+               <section class="row subfeature subfeature-news">
+                  <div class="col-sm-12">
+                     <h2><a href="/newsroom/index.php">SPC News</a></h2><div class="row"><div class="col-xs-4 col-ts-12">	<div class="subfeature-box">		<a class="subfeature-img" href="https://www.southplainscollege.edu/newsroom/father-daughter-2019.php"><img src="https://www.southplainscollege.edu/_resources/images/Student-Spotlight-IMET-thumbnail.jpg" alt="Father-Daughter"/></a>		<a class="subfeature-border" href="https://www.southplainscollege.edu/newsroom/father-daughter-2019.php">IMET Program</a>Father, daughter pursue careers in SPC's IMET Program</p>	</div></div><div class="col-xs-4 col-ts-12">	<div class="subfeature-box">		<a class="subfeature-img" href="https://www.southplainscollege.edu/newsroom/license-to-carry-11-19.php"><img src="https://www.southplainscollege.edu/_resources/images/news_graphic.png" alt="SPC News"/></a>		<a class="subfeature-border" href="https://www.southplainscollege.edu/newsroom/license-to-carry-11-19.php">License to Carry</a>SPC to offer License to Carry class on Nov. 2</p>	</div></div><div class="col-xs-4 col-ts-12">	<div class="subfeature-box">		<a class="subfeature-img" href="https://www.southplainscollege.edu/newsroom/gala2020-entertainment.php"><img src="https://www.southplainscollege.edu/_resources/images/FlatlandCavalry.jpg" alt="SPC News"/></a>		<a class="subfeature-border" href="https://www.southplainscollege.edu/newsroom/gala2020-entertainment.php">Gala 2020</a>Flatland Cavalry to perform at SPC annual scholarship gala on Feb. 28</p>	</div></div></div><div class="row"><div class="col-xs-4 col-ts-12">	<div class="subfeature-box">		<a class="subfeature-img" href="https://www.southplainscollege.edu/newsroom/ag-career-fa19.php"><img src="https://www.southplainscollege.edu/_resources/images/news_graphic.png" alt="SPC News"/></a>		<a class="subfeature-border" href="https://www.southplainscollege.edu/newsroom/ag-career-fa19.php">Ag Career Symposium</a>Ag Career Symposium</p>	</div></div><div class="col-xs-4 col-ts-12">	<div class="subfeature-box">		<a class="subfeature-img" href="https://www.southplainscollege.edu/newsroom/blithe-spriit-fa19.php"><img src="https://www.southplainscollege.edu/_resources/images/news_graphic.png" alt="SPC News"/></a>		<a class="subfeature-border" href="https://www.southplainscollege.edu/newsroom/blithe-spriit-fa19.php">Blithe Spirit</a>South Plains College Theatre to perform 'Blithe Spirit' Oct. 24-27</p>	</div></div><div class="col-xs-4 col-ts-12">	<div class="subfeature-box">		<a class="subfeature-img" href="https://www.southplainscollege.edu/newsroom/hernandez.php"><img src="https://www.southplainscollege.edu/_resources/images/AutoBody-Female-Hernandez.jpg" alt="SPC News"/></a>		<a class="subfeature-border" href="https://www.southplainscollege.edu/newsroom/hernandez.php">Student Spotlight</a>Female auto collision student enjoys rigors of the program</p>	</div></div></div>
+                  </div>
+                  <div class="col-sm-12 readmorelink text-right">
+                     <p><a class="readmore" href="/newsroom/index.php">Recent News</a></p>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper background-grey clearfix buffer-top buffer-bottom">
+         <div class="container">
+            <p>&nbsp;</p>
+            
+            <div class="row">&nbsp;<a title="Career Coach" href="https://southplainscollege.emsicc.com/" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="/carrercoach_v3.gif" alt="Career Coach" width="400" height="400"></a></div>
+            
+            <div class="row">
+               <div class="col-sm-4">&nbsp;</div>
+               <div class="col-sm-8">&nbsp;</div>
+            </div>
+         </div>
+      </div>
+      <!-- OU Search Ignore Start Here -->
+      <div class="wrapper background-inverse-feature background-blue clearfix pre-footer-social">
+         <div class="container">
+            <div class="row">
+               <aside class="col-sm-12 col-xs-12 text-center">
+                  <ul class="list-inline socialicons">
+<li>
+	<a href="https://www.facebook.com/southplainscollege">
+		<em class="fa fa-facebook-square faa-fast faa-float animated-hover" title="Find South Plains College on Facebook">
+			<span class="sr-only">Facebook</span> 
+		</em> 
+	</a>
+</li>
+<li>
+	<a href="https://twitter.com/SouthPlains">
+		<em class="fa fa-twitter faa-fast faa-float animated-hover" title="Find South Plains College on Twitter">
+			<span class="sr-only">Twitter</span>
+		</em>
+	</a>
+</li>
+<li>
+	<a href="/">
+		<img class="faa-fast faa-float animated-hover" src="/_resources/images/structure/logos/spc-inverse-50.png" alt="SPC" />
+	</a>
+</li>
+<li>
+	<a href="https://www.instagram.com/southplainscollege/">
+		<em class="fa fa-instagram faa-fast faa-float animated-hover" title="Find South Plains College on Instagram">
+			<span class="sr-only">Instagram</span>
+		</em>
+	</a>
+</li>
+<li>
+	<a href="https://www.pinterest.com/spctexans/">
+		<em class="fa fa-pinterest faa-fast faa-float animated-hover" title="Find South Plains College on Pinterest">
+			<span class="sr-only">Pinterest</span>
+		</em>
+	</a>
+</li>
+</ul>
+               </aside>
+            </div>
+         </div>
+      </div>
+      <footer class="hidden-print" id="footer">
+         <div class="inner-wrapper">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="footer-large"><section class="row subfeature-quicklinks">
+   <div class="col-sm-12">
+      <div class="panel-group quicklinks-accordion">
+         <div class="panel panel-quicklinks">
+            <div class="panel-heading">
+               <div class="quicklinks-header">
+                  <h2 class="panel-title clearfix"><a data-toggle="collapse" data-parent="#accordion" href="#panel-quicklinks" class="accordion-toggle collapsed"><span class="fa fa-caret-right toggle-first" aria-hidden="false"><span class="sr-only">Expand</span></span><span class="fa fa-caret-left toggle-last" aria-hidden="false"><span class="sr-only">Expand</span></span> Quick Links</a></h2>
+               </div>
+            </div>
+            <div id="panel-quicklinks" class="panel-collapse collapse">
+               <div class="panel-body">
+                  <ul>
+                     <li><a href="/academiccalendar/index.php">Academic Calendar</a></li>
+                     <li><a href="/admission-aid/paying-for-school/businessoffice.php">Business Office</a></li>
+                     <li><a href="/campuslife/bookstore.php">Bookstore</a></li>
+                     <li><a href="https://ellucianss1.southplainscollege.edu/Student/Courses" target="_blank">Class Schedule</a></li>
+                     <li><a href="/admission-aid/apply/dualcredit/dualcredit.php">Dual Credit</a></li>
+                     <li><a href="/employees/employees.php">Employee Resources</a></li>
+                  </ul>
+                  <ul>
+                     <li><a href="/directory/index.php">Employee/Faculty Directory</a></li>
+                     <li><a href="https://southplainscollege.peopleadmin.com/" target="_blank">Employment Opportunities</a></li>
+                     <li><a href="/academiccalendar/finalexamschedule.php">Final Exam Schedule</a></li>
+                     <li><a href="/community/fitnesscomplex.php">Fitness Complex</a></li>
+                     <li><a href="/campuslife/library/index.php">Library</a></li>
+                     <li><a href="/health/mentalhealthresources.php">Mental Health Resources</a></li>
+                  </ul>
+                  <ul>
+                     <li><a href="http://www.collegeforalltexans.com/apps/CollegeMoney/" target="_blank">Net Price Calculator</a></li>
+                     <li><a href="http://catalog.southplainscollege.edu/">Online Catalog</a></li>
+                     <li><a href="/about/college_information/onlineresume.php">Online Institutional Resume</a></li>
+                     <li><a href="/exploreprograms/artsandsciences/communication.php">Plainsman Press Newspaper</a></li>
+                     <li><a href="/studentconsumerinformation.php">Student Consumer Information</a></li>
+                     <li><a href="http://www.southplainscollege.edu/about/campussafety/sah.php">Sexual Assault or Harassment Reporting</a></li>
+                  </ul>
+                  <ul>
+                     <li><a href="/admission-aid/paying-for-school/tuitionfees.php">Tuition &amp; Fees</a></li>
+                     <li><a href="/transcripts">Transcript Request</a></li>
+                     <li><a href="/uil/uil.php">UIL</a></li>
+                     <li><a href="HTTPS://outlook.office.com">Webmail (Employees)</a></li>
+                     <li><a href="http://mail.students.southplainscollege.edu">Webmail (Students)</a></li>
+                     <li><a href="/whotocontact.php">Who to Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section></div>
+                     <div class="footer-small"><div class="footer-button "><a href="tel:806-894-9611" class="btn btn-primary">Call Us<br>806.894.9611</a></div>                        <div class="footer-badge">
+<span id="directedit"><img src="/_resources/images/structure/spc-badge.png" alt="South Plains College Seal: Dreams Precede Realities"/></span>
+</div>
+                        <div class="footer-attr">
+<p>South Plains College Official Web Site © 2001-2019 All Rights Reserved. E-mail comments or suggestions to <b><a href='mail&#116;o&#58;info%40&#115;o%&#55;5th%&#55;&#48;l%&#54;1&#105;%6Es%63&#111;lleg&#101;&#46;%&#54;&#53;d&#37;75'>info&#64;sout&#104;&#112;lains&#99;oll&#101;g&#101;&#46;&#101;du</a></b>  </p>
+<p>South Plains College does not discriminate on the basis of race, color, national origin, sex, disability or age in its programs and activities. The following person has been designated to handle inquiries regarding the non-discrimination policies: Vice President for Student Affairs, South Plains College 1401 College Avenue, Box 5, Levelland, TX 79336, <b><a href="tel:1-806-894-9611">806-894-9611</a></b></p>
+
+<center><div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></center>
+<a href="/accessibility.php"><center>Accessibility Statement</center></a>
+
+</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+<!-- footcode-home include -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script>
+	var slider = $('.slick-slider');
+	$(window).load(function () {
+		slider.slick({
+			autoplay: true,
+			arrows: false,
+			speed: 1000,
+			autoplaySpeed: 8000
+		});
+		$('.slick-slider .caption').each(function () {
+			var $slide = $(this).parent();
+			if ($slide.attr('aria-describedby') != undefined) { // ignore extra/cloned slides
+				$(this).attr('id', $slide.attr('aria-describedby'));
+			}
+		});
+		$('.slick-slider .slick-active').find('video').get(0).play();
+	});
+	$(function () {
+		slider.on('afterChange', function (event, slick, currentSlide,
+											nextSlide) {
+
+			if ($('.slick-slider .slick-active').hasClass('vid')) {
+				$('.slick-slider .slick-active').find('video').get(0).play();
+			}
+		});
+	});
+</script> 
+<script src="https://cdn.jsdelivr.net/polyfills/polyfill.js"></script>
+<script src="/_resources/js/script.js"></script>
+<script src="/_resources/js/direct-edit.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+    var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+    sz.src = '//siteimproveanalytics.com/js/siteanalyze_66357342.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script> 
+<script type="text/javascript" src="/_resources/js/ldp/ouforms.js"></script><div id="hidden" style="display:none;">
+         <a id="de" href="https://a.cms.omniupdate.com/10?skin=oucampus&amp;account=south_plains_college&amp;site=www&amp;action=de&amp;path=/index.pcf" ><img src="/_resources/images/structure/spc-badge.png" alt="South Plains College Seal: Dreams Precede Realities" /></a>
+      </div>
+      <!-- OU Search Ignore End Here -->
+   </body>
+</html>
